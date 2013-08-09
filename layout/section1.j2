@@ -1,0 +1,32 @@
+<header class="wrapper clear">
+    <div class="fl_left">
+        <h1><a href="index.html">{{ resource.meta.subtext }}</a></h1>
+        <p>Free CSS Website Template</p>
+    </div>
+    <div class="fl_right">
+        <ul>
+            {% for item in menu -%}
+                {% set active = False -%}
+                {% set active = (resource.url == site.content.resource_from_relative_path(item.url).url) -%}
+                {% set classes = ['button'] -%}
+                {% do classes.append('active') if active -%}
+                {% do classes.append(item.css_class) if item.css_class -%}
+                {% do classes.append('last') if formloop.last -%}
+                <li>
+                    <a title="{{ item.description }}"
+                       class="{{ classes|join(' ') }}"
+                       href="{{ content_url(item.url) }}">
+                        {{ item.name }}
+                    </a>
+                </li>
+            {%- endfor %}
+        </ul>
+        <form action="#" method="post" id="sitesearch">
+            <fieldset>
+                <strong>Search:</strong>
+                <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+                <input type="image" src="images/search.gif" id="search" alt="Search" />
+            </fieldset>
+        </form>
+    </div>
+</header>
