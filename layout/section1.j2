@@ -1,7 +1,7 @@
-<header class="wrapper clear">
+<div id="header" class="wrapper clear">
     <div class="fl_left">
-        <h1><a href="index.html">{{ resource.meta.subtext }}</a></h1>
-        <p>Free CSS Website Template</p>
+        <h1><a href="index.html">{{ resource.meta.title }}</a></h1>
+        <p>{{ resource.meta.subtext }}</p>
     </div>
     <div class="fl_right">
         <ul>
@@ -25,8 +25,8 @@
             <fieldset>
                 <strong>Search:</strong>
                 <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
-                <input type="image" src="images/search.gif" id="search" alt="Search" />
+                <input type="image" src="{{ media_url('/images/search.gif') }}" id="search" alt="Search" />
             </fieldset>
         </form>
     </div>
-</header>
+</div>

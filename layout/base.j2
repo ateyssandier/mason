@@ -40,7 +40,7 @@
   {% block css %}
   <link rel="stylesheet" href="{{ media_url('css/site.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
-  <link rel="stylesheet" href="{{ media_url('css/layout.css') }} type="text/css" />
+  <link rel="stylesheet" href="{{ media_url('css/layout.css') }}"/>
   {% endblock css %}
 
   {% block headjs %}
@@ -52,50 +52,42 @@
 </head>
 <body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
   {% block content %}
-  <div id="container">
+  <div id="container_orig">
       {% block container %}
 
-          {% include "section1" %}
-          {% include "navigation" %}
-          {% include "section-block-content" %}
-          {% include "section3" %}
-          {% include "section4" %}
+          {% include "section1.j2" %}
+          {% include "navigation.j2" %}
+          {% include "section-block-content.j2" %}
+          {% include "section3.j2" %}
+          {% include "footer-row4.j2" %}
 
 
 
 
     {% endblock container %}
   </div> <!--! end of #container -->
-  {% include "footer.j2" %}
+  {% include "copyright.j2" %}
 
-  <div class="wrapper">
-      <div id="copyright" class="clear">
-          <p class="fl_left">Copyright &copy; 2011 - All Rights Reserved - <a href="#">Domain Name</a></p>
-          <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-      </div>
-  </div>
+
 
   {% endblock content%}
   {% block js %}
-  <!-- Javascript at the bottom for fast page loading -->
-  {% block jquery %}
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
-  {% endblock jquery %}
+    <!-- Javascript at the bottom for fast page loading -->
+      {% block jquery %}
+          <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+          <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+      {% endblock jquery %}
 
-  {% block scripts %}
-  {% endblock scripts %}
+      {% block scripts %}
+      {% endblock scripts %}
 
 
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]-->
+      <!--[if lt IE 7 ]>
+        <script src="js/libs/dd_belatedpng.js"></script>
+        <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+      <![endif]-->
 
-  {% block analytics %}
-  {% include "analytics.j2" %}
-  {% endblock analytics %}
 
   {% endblock js %}
 </body>

@@ -1,17 +1,5 @@
-/*
-Template Name: Academic Education
-File: Layout CSS
-Author: OS Templates
-Author URI: http://www.os-templates.com/
-Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
-*/
-
-@import url(navi.css);
-@import url(forms.css);
-@import url(tables.css);
+@import url(navigation.css);
 @import url(homepage.css);
-@import url(gallery.css);
-@import url(portfolio.css);
 @import url(featured_slide.css);
 
 body{
@@ -54,27 +42,29 @@ a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
   display:block;
   padding:12px 0 0 0;
   border-radius: 15px;
-}
+  border-color:red;
 
-div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
-  margin:0 0 15px 0;
-  padding:0;
-  font-size:16px;
-  font-weight:normal;
-  font-style:normal;
-  line-height:normal;
+  h1, h2, h3, h4, h5, h6 {
+    margin:0 0 15px 0;
+    padding:0;
+    font-size:16px;
+    font-weight:normal;
+    font-style:normal;
+    line-height:normal;
+
+  }
 }
 
 .row2, .row3, .row4{color:#979797; background-color:#F9F9F9;}
 
 /* ----------------------------------------------Header-------------------------------------*/
 
-header {
+#header {
   padding:37px 0 0 0;
   color:#999999;
   background-color:#06213F;
 
-  a{
+  a {
     color:#FCFCFC;
     background-color:#06213F;
   }
@@ -122,24 +112,23 @@ header {
   width:920px;
   padding:20px;
   line-height:1.6em;
-  background:url("../images/round_bot.gif") bottom left no-repeat;
-}
 
-#container a{
-  color:#55ABDA;
-  background-color:#F9F9F9;
-}
+  a{
+    color:#55ABDA;
+    background-color:#F9F9F9;
+  }
 
-#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
-  padding-bottom:8px;
-  border-bottom:1px solid #DEDACB;
-}
+  h1, h2, h3, h4, h5, h6 {
+    padding-bottom:8px;
+    border-bottom:1px solid #DEDACB;
+  }
 
-#container .readmore{
-  display:block;
-  width:100%;
-  text-align:right;
-  line-height:normal;
+  .readmore{
+    display:block;
+    width:100%;
+    text-align:right;
+    line-height:normal;
+  }
 }
 
 #content{
@@ -150,7 +139,7 @@ header {
 
 
 
-/* ----------------------------------------------Column-------------------------------------*/
+/* ----------------------------------------------Column this might not be needed-------------------------------------*/
 
 #column{
   display:block;
@@ -288,47 +277,217 @@ header {
 #footer{
   width:920px;
   padding:5px 20px 15px 20px;
-  background:url("../images/round_bot.gif") bottom left no-repeat;
+  border-radius: 15px;
+
+  .fl_left img{margin-bottom:30px;}
+
+  .fl_right{
+    display:block;
+    width:400px;
+
+    p {margin:0 0 15px 0; padding:0; line-height:normal;}
+
+    #social {
+      display:block;
+      width:100%;
+      margin:0 0 15px 0;
+      padding:0;
+      line-height:normal;
+
+      ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+      }
+
+      li{
+        float:left; /* Only For IE */
+      }
+      a{
+        display:block;
+        float:left;
+        width:49px;
+        height:49px;
+        margin-right:20px;
+        overflow:hidden;
+        text-indent:-4000em;
+        background:url("../images/social-sprite.gif") no-repeat;}
+    }
+    li.last a{
+      margin-right:0;
+    }
+  }
+
+  address{
+    display:inline;
+    float:left;
+    margin-left:40px;
+    text-transform:none;
+    font-style:normal;
+    line-height:1.8em;
+  }
+
+  .last{margin:0;}
 }
-
-#footer .fl_left img{margin-bottom:30px;}
-
-#footer address{
-  display:inline;
-  float:left;
-  margin-left:40px;
-  text-transform:none;
-  font-style:normal;
-  line-height:1.8em;
-}
-
-#footer .fl_right{
-  display:block;
-  width:400px;
-}
-
-#footer .fl_right p{margin:0 0 15px 0; padding:0; line-height:normal;}
-
-#footer .fl_right #social{display:block; width:100%; margin:0 0 15px 0; padding:0; line-height:normal;}
-#footer .fl_right #social ul{margin:0; padding:0; list-style:none;}
-#footer .fl_right #social li{float:left; /* Only For IE */}
-#footer .fl_right #social a{display:block; float:left; width:49px; height:49px; margin-right:20px; overflow:hidden; text-indent:-4000em; background:url("../images/social-sprite.gif") no-repeat;}
-#footer .fl_right #social li.last a{margin-right:0;}
-
-#footer .last{margin:0;}
-
 /* ----------------------------------------------Copyright-------------------------------------*/
 
 #copyright{
   padding:0 12px;
-}
-
-#copyright p{
-  margin:0;
-  padding:0;
-}
-
-#copyright, #copyright a{
-  color:#55ABDA;
+  color: #55ABDA;
   background-color:#06213F;
+
+  p{
+    margin:0;
+    padding:0;
+  }
+
+}
+
+/* ----------------------------------------------Academic link Block-------------------------------------*/
+
+#academiclinks{
+  display:block;
+  width:920px;
+  .linkbox{
+    display:block;
+    float:left;
+    width:215px;
+    margin:0 20px 0 0;
+    font-size:12px;
+  }
+
+  ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+
+  .last{
+    margin:0;
+  }
+}
+
+/* ---------------------------------------------Blockbar-------------------------------------*/
+
+#blockbar{
+  display:block;
+  width:900px;
+  height:86px;
+  margin:0 0 30px 0;
+  padding:10px;
+  clear:both;
+
+  a{
+    color:#2DCDFF;
+    background-color:#00112B;
+  }
+
+  .fl_left{
+    display:block;
+    float:left;
+    width:94px;
+    height:61px;
+    margin:0;
+    padding:25px 10px 0 44px;
+    border-right:2px solid #FFFFFF;
+    text-align:center;
+
+    a{text-transform:uppercase;}
+  }
+
+  .fl_right{
+    display:block;
+    float:right;
+    width:730px;
+    height:60px;
+    margin:0;
+    padding:26px 0 0 0;
+    font-size:14px;
+    font-weight:bold;
+    line-height:1.4em;
+    color:#FFFFFF;
+    background-color:#00112B;
+  }
+}
+
+
+/* ---------------------------------------------sitesearch-------------------------------------*/
+
+#sitesearch{
+  display:block;
+  float:right;
+
+  fieldset {
+    margin:0;
+    padding:0;
+    border:none;
+  }
+
+
+  strong{
+    display:block;
+    float:left;
+    margin:0;
+    padding:7px 15px 0 0;
+    text-transform:uppercase;
+    color:#C6CDD6;
+    background-color:#06213F;
+  }
+
+  input{
+    display:block;
+    float:left;
+    width:230px;
+    height:25px;
+    margin:0 15px 0 0;
+    padding:0 5px;
+    color:#979797;
+    background:url("../images/form_input_long.gif") 0 0 no-repeat #F9F9F9;
+    border:none;
+    font-size:12px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+  }
+
+  input#search{
+    width:23px;
+    height:23px;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    background:none;
+    float:left;
+  }
+}
+
+/* ---------------------------------------------newsletter-------------------------------------*/
+#footer {
+
+  legend{
+    display:block;
+    margin-bottom:15px;
+  }
+
+  input{
+    display:block;
+    float:left;
+    width:260px;
+    height:20px;
+    margin:0;
+    padding:5px 10px;
+    color:#666666;
+    background-color:#ECECEC;
+    border:none;
+  }
+
+    input#subscribe{
+      width:100px;
+      height:30px;
+      float:left;
+      margin:0 0 0 8px;
+      padding:0;
+      cursor:pointer;
+      text-align:center;
+      text-transform:uppercase;
+      font-weight:bold;
+    }
 }
