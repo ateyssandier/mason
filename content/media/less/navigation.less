@@ -21,7 +21,6 @@
   }
 
   ul, li {
-    margin:0;
     padding:0;
     list-style:none;
     margin-left: 20px;
@@ -33,5 +32,66 @@
   }
   li.last{
     margin:0;
+    a{
+      border-right: none;
+    }
+  }
+
+  ul.dropdown{
+    position: relative;
+    li {
+      font-weight: bold;
+      float: left;
+      zoom: 1;
+      background: #FFFFF;
+      display: inline-block;
+      margin-top: -14px;
+      border: none;
+      position:relative;
+
+      a {
+        display: block;
+        padding: 4px 8px;
+        color: #222;
+      }
+    }
+
+    li.hoverli {
+      margin-top: -17px;
+    }
+
+    ul  {
+      width: 220px;
+      display:none;
+      position: absolute;
+      top: 130%;
+      left: 0;
+      z-index: 1;
+      margin-left: 0px;
+
+      li {
+        font-weight: normal;
+        background: #f6f6f6;
+        float: none;
+        display:inline;
+
+
+        a {
+          border: 2px solid #222;
+
+          padding-bottom: 10px;
+          padding-top: 10px;
+          margin-top:-16px;
+          margin-left: 5px;
+        }
+        a:hover{
+          background-color:#222;
+          color: #FFF
+        }
+      }
+    }
   }
 }
+
+
+
