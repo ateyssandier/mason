@@ -74,8 +74,8 @@ context:
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
-    author: Alex Tesysandier
-    title: Masons Ghetto Ponzi Scheme
+    author: Alex Teyssandier
+    title: Cambridge Basketball Academy
     subtext: Feeding chinese social pressure one child at a time
     address: 123 main street
     city: Somerville
