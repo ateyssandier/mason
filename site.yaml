@@ -50,7 +50,7 @@ context:
                 url: sessions/index.html
                 submenu:
                     - name: Summer Session
-                      url: sessions/summer_sessions.html
+                      url: sessions/summer_session.html
                     - name: Winter Break Camp
                       url: sessions/winter_session.html
             -
@@ -70,6 +70,13 @@ context:
                 css_class: contact
                 type: page
                 url: contact.html
+
+            -
+                name: Application
+                description: Application
+                css_class: application
+                type: page
+                url: apply.html
 
 meta:
     nodemeta: meta.yaml

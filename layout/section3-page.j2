@@ -2,9 +2,8 @@
     <div id="container" class="clear">
         <!-- ####################################################################################################### -->
         <div id="left_column">
-            <div class="holder">
-                {% include "linklist-column.j2" %}
-            </div>
+            {%  block leftcolumn %}
+            {%  endblock leftcolumn %}
         </div>
         <!-- ############ -->
         <div id="content">
@@ -16,21 +15,7 @@
         <!-- ############ -->
         <div id="right_column">
             <div class="holder">
-                <h2 class="title">Lorem ipsum dolor</h2>
-                <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
-                <ul>
-                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                    <li>Etiam vel sapien et</li>
-                    <li><a href="#">Etiam vel sapien et</a></li>
-                </ul>
-                <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
-                <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-            </div>
-            <div class="holder">
-                <h2 class="title">Lorem ipsum dolor</h2>
-                <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
-                <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
-                <div class="imgholder last"><img src="images/demo/240x90.gif" alt="" /></div>
+                {% include "linklist-column.j2" %}
             </div>
         </div>
     </div>

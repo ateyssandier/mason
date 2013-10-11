@@ -1,12 +1,10 @@
 ---
 extends: base.j2
-default_block: maincontent
 ---
-
-
+{%  block maincontent %}
 <h1 class="title">Coach Neil Holloway</h1>
-<div class="imgholder"><img src="images/demo/410x215.gif" alt="neil_holloway" /></div>
 <p>
+    <div class="imgholder" style="float:left"><img src="images/c_halloway.jpg" alt="neil_holloway" /></div>
     Coach Neil Holloway has coached in several schools throughput the US.
     Currently he is the Head Basketball Coach at the International School of Boston.
 </p>
@@ -22,3 +20,24 @@ default_block: maincontent
 <p>
     Whether you are just beginning playing basketball or are an experienced player looking to improve your skills Coach Holloway will give you the tools to help you succeed on the court
 </p>
+{%  endblock maincontent %}
+
+{%  block rightcolumn %}
+<div class="holder">
+    <h2 class="title">Summer Schedule: Importand dates</h2>
+    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
+    <ul>
+        <li><a href="#">Lorem ipsum dolor sit</a></li>
+        <li>Etiam vel sapien et</li>
+        <li><a href="#">Etiam vel sapien et</a></li>
+    </ul>
+    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
+    <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+</div>
+<div class="holder">
+    <h2 class="title">Lorem ipsum dolor</h2>
+    <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
+    <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
+    <div class="imgholder last"><img src="images/demo/240x90.gif" alt="" /></div>
+</div>
+{%  endblock rightcolumn %}

@@ -52,10 +52,10 @@
   <div id="container_orig">
       {% block container %}
 
-          {% include "section1.j2" %}
+          {% include "section1-header.j2" %}
           {% include "navigation.j2" %}
           {%  if resource.url ==  '/index.html' %}
-              {% include "section-block-content.j2" %}
+              {% include "section-carousel.j2" %}
               {% include "section3.j2" %}
           {% else %}
                 {% include "section3-page.j2" %}
@@ -73,12 +73,50 @@
     <!-- Javascript at the bottom for fast page loading -->
       {% block jquery %}
           <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-          <script>window.jQuery || document.write('<script src="media/js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+          <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+          <script>window.jQuery || document.write('<script src="media/js/libs/jquery-latest.min.js">\x3C/script>')</script>
+
+          <!--<script src="media/js/libs/jquery-ui-1.7.2.custom.min.js"></script>-->
+          <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
       {% endblock jquery %}
 
       <script src="{{ media_url('js/libs/dropdown.js') }}"></script>
+      <script src="{{ media_url('js/libs/rotate.js') }}"></script>
+      <script src="{{ media_url('js/libs/jquery.carouFredSel-6.2.1-packed.js') }}"></script>
 
+      <script>
+
+          // Using custom configuration
+          $("#featured_content").carouFredSel({
+              items               : 1,
+              onCreate            : function(data) {
+                  $('#featured_tabs').find("#fc1_tab").parent().addClass('ui-state-active');
+              },
+              scroll : {
+                  items           : 1,
+                  easing          : "cubic",
+                  duration        : 1200,
+                  pauseOnHover    : true,
+                  onBefore         : function(data) {
+                      var selected = data.items.visible.attr('id');
+                      var previous = data.items.old.attr('id');
+
+                      $('#featured_tabs').find("#"+selected+"_tab").parent().addClass('ui-state-active');
+                      $('#featured_tabs').find("#"+previous+"_tab").parent().removeClass('ui-state-active');
+                  }
+              }
+          });
+
+          $('#featured_tabs').find('a').click(function(evt) {
+              evt.preventDefault();
+              var slideno = $(this).data('slide');
+              $("#featured_content").trigger("slideTo", slideno);
+              $("#featured_tabs").find('li').removeClass('#ui-state-active');
+              $(this).parent().addClass('ui-state-active');
+          });
+
+      </script>
 
       <!--[if lt IE 7 ]>
         <script src="js/libs/dd_belatedpng.js"></script>
