@@ -2,42 +2,340 @@
 extends: base.j2
 ---
 {%  block maincontent %}
-<h1 class="title">Coach Neil Holloway</h1>
-<p>
-<div class="imgholder" style="float:left"><img src="images/c_halloway.jpg" alt="neil_holloway" /></div>
-Coach Neil Holloway has coached in several schools throughput the US.
-Currently he is the Head Basketball Coach at the International School of Boston.
-</p>
-<p>It is during this time that he has noticed the influx of international players looking to transition their way into basketball in the US.
-    With his knowledge of the game of basketball combined with his understanding of private school leagues, he is in a unique position
-    to help guide international players attending prestigious New England private schools.
-</p>
-<p>
-    Along with his assistants, Coach Holloway will instruct campers on the fundamental skills needed to become successful players.
-    He focuses on drills that improve footwork, shooting, defense and offensive concepts.
-    He teaches an American style of Basketball that emphasizes a fast break, uptempo game.
-</p>
-<p>
-    Whether you are just beginning playing basketball or are an experienced player looking to improve your skills Coach Holloway will give you the tools to help you succeed on the court
-</p>
+<h1 class="title">Apply Now!</h1>
+<p>Space is limited
+<div class="form">
+<script type="text/javascript">
+
+    function resetform()
+    {
+        if (confirm('Are you sure you want to clear all the fields?'))
+        {
+            $( "form" )[ 0 ].reset();
+        }
+    }
+
+    jQuery.validator.addMethod("phoneUS", function(phone_number, element) {
+        phone_number = phone_number.replace(/\s+/g, "");
+        return this.optional(element) || phone_number.length > 9 &&
+                phone_number.match(/^(1-?)?(\([2-9]\d{2}\)|[2-9]\d{2})-?[2-9]\d{2}-?\d{4}$/);
+    }, "Please specify a valid phone number");
+
+    $(document).ready(function () {
+        //        $('#birthdate').mask('99/99/9999');
+        $('#econtact1work').mask('(999) 999-9999');
+        $('#econtact1cell').mask('(999) 999-9999');
+        $('#econtact2work').mask('(999) 999-9999');
+        $('#econtact2cell').mask('(999) 999-9999');
+        $('#birthdate').mask('99/99/9999');
+        $('#signatureDate').mask('99/99/9999');
+
+        //        $('#regForm').validate();
+
+
+        $.validator.messages.required = '*';
+
+
+        $('#theForm').validate({
+            rules: {
+                gender: 'required',
+                session: 'required',
+                crcMember: 'required',
+                afterCampCare: 'required',
+                additionalChild: 'required'
+            },
+            errorPlacement: function (error, element) {
+                if (element.attr('type') != 'radio') {
+                    error.appendTo(element.siblings('label'));
+                } else {
+                    error.appendTo(element.siblings().first());
+                }
+            },
+            invalidHandler: function (e, validator) {
+                var errors = validator.numberOfInvalids();
+                if (errors) {
+                    $('.errorMessage').html('Some fields are missing. Please check your form and try again.');
+                    $('.errorMessage').show();
+                } else {
+                    $('.errorMessage').hide();
+                }
+            },
+            submitHandler: onsubmit
+        });
+
+//    updateHealthFormPanel();
+
+        $("input[name='crcMember']").change(updateHealthFormPanel);
+
+    });
+
+
+    function updateHealthFormPanel() {
+        return;
+
+        if ($("input[name='crcMember']:checked").val() != 'no') {
+            $('.alert').hide(0);
+        } else {
+            $('.alert').show(0);
+        }
+    }
+
+    baseurl = 'https://login.ezfacility.com/app/OnlineRegistrations/Register.aspx?CompanyID=927&GroupID='
+    var groupids = { session1: { member: { nocare: { primary: 162239, additional: 162241 },
+        care: { primary: 162245, additional: 162242}},
+        nonmember: { nocare: { primary: 162240, additional: 162246 },
+            care: { primary: 162243, additional: 162247}}},
+        session2: { member: { nocare: { primary: 162258, additional: 162260 },
+            care: { primary: 162261, additional: 162262}},
+            nonmember: { nocare: { primary: 162259, additional: 162264 },
+                care: { primary: 162265, additional: 162266}}},
+        session3: { member: { nocare: { primary: 162271, additional: 162272 },
+            care: { primary: 162273, additional: 162274}},
+            nonmember: { nocare: { primary: 162267, additional: 162268 },
+                care: { primary: 162269, additional: 162270}}},
+        session4: { member: { nocare: { primary: 162275, additional: 162276 },
+            care: { primary: 162278, additional: 162277}},
+            nonmember: { nocare: { primary: 162279, additional: 162281 },
+                care: { primary: 162280, additional: 162282}}}};
+
+    function onsubmit(form)
+    {
+        var session = $('input[name=session]:checked').val()
+        var member = $('input[name=crcMember]:checked').val()
+        var aftercamp = $('input[name=afterCampCare]:checked').val()
+        var additionalChild = $('input[name=additionalChild]:checked').val();
+        var o;
+        switch(session)
+        {
+            case '1': o = groupids.session1;break;
+            case '2': o = groupids.session2;break;
+            case '3': o = groupids.session3;break;
+            case '4': o = groupids.session4;break;
+            default: alert('error occurred');
+        }
+        if (member == 'yes') o = o.member; else o = o.nonmember;
+        if (aftercamp == 'yes') o = o.care; else o = o.nocare;
+        if (additionalChild == 'yes' ) o = o.additional; else o = o.primary;
+        $('input[name=ThankYouUrl]').val(baseurl + o);
+//    alert($('input[name=ThankYouUrl]').val());
+//    return false;
+        form.submit();
+//    return true;
+    }
+
+
+
+</script>
+<title>UMass Lowell RecKids Summer Camp Registration</title>
+
+
+<div class="errorMessage">&nbsp;</div>
+
+<input type="hidden" name="SPAMSTOP" value="true">
+<input type="text" id="recondite" name="subject" maxlength="50">
+<input type="hidden" name="mode" value="2">
+<input type="hidden" name="MailFrom" value="websupport@uml.edu">
+<input type="hidden" name="MailTo" value="Meghan_Flynn@uml.edu">
+<input type="hidden" name="MailSubject" value="UMass Lowell RecKids Summer Camp Registration">
+<input type="hidden" name="ThankYouUrl" value="">
+<fieldset>
+    <legend>Camper Information</legend>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="last" class="formlabel">Last</label>
+            <input type="text" maxlength="50" name="last" id="last" size="20" class="required">
+        </div>
+        <div class="cell">
+            <label for="first" class="formlabel">First</label>
+            <input type="text" maxlength="50" name="first" id="first" size="20" class="required">
+        </div>
+        <div class="cell">
+            <label for="middle" class="formlabel">Middle</label>
+            <input type="text" maxlength="1" name="middle" id="middle" size="3">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell" style="clear:both">
+            <label for="birthdate" class="formlabel">Birth Date (MM/DD/YYYY):</label>
+            <input type="text" name="birthdate" id="birthdate" class="required" maxlength="10">
+        </div>
+        <div class="cell">
+            <label for="age" class="formlabel">Age as of 7/8/2013</label>
+            <input type="text" name="age" id="age" maxlength="2" size="5" class="required">
+        </div>
+    </div>
+    <div class="row">
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="gender" class="formlabel">Gender</label>
+            <input type="radio" id="male" name="gender" class="checkbox" value="M">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" class="checkbox" value="F">
+            <label for="female">Female</label>
+        </div>
+        <div class="cell">
+            <label for="tshirtSize" class="formlabel">T-Shirt Size</label>
+            <input type="radio" id="6-8youth" name="tshirtSize" value="6-8youth"> <label for="6-8youth">6-8 Youth</label>
+            <input type="radio" id="8-10youth" name="tshirtSize" value="8-10youth"> <label for="8-10youth">8-10 Youth</label>
+            <input type="radio" id="10-11youth" name="tshirtSize" value="10-11youth"> <label for="10-11youth">10-11 Youth</label>
+            <br>
+            <input type="radio" id="adultsmall" name="tshirtSize" value="adultsmall"> <label for="adultsmall">Adult - Small</label>
+            <input type="radio" id="adultmedium" name="tshirtSize" value="adultmedium"> <label for="adultmedium">Adult - Medium</label>
+            <input type="radio" id="adultlarge" name="tshirtSize" value="adultlarge"> <label for="adultlarge">Adult - Large</label>
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Parent/Guardian Contact Info</legend>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="parent1name" class="formlabel">Name</label>
+            <input type="text" id="parent1name" name="parent1name" maxlength="75" size="30" class="required">
+        </div>
+        <div class="cell">
+            <label for="parent1address" class="formlabel">Address</label>
+            <input type="text" id="parent1address" name="parent1address" maxlength="75" size="30" class="required">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="parent1city" class="formlabel">City</label>
+            <input type="text" id="parent1city" name="parent1city" maxlength="75" size="30" class="required">
+        </div>
+        <div class="cell">
+            <label for="parent1zip" class="formlabel">Post Code</label>
+            <input type="text" id="parent1zip" name="parent1zip" maxlength="15" size="15" class="required">
+        </div>
+        <div class="cell">
+            <label for="parent1state" class="formlabel">Province</label>
+            <input type="text" id="parent1state" name="parent1state" maxlength="2" size="2" class="required">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="parent1phone" class="formlabel">Preferred Phone #</label>
+            <input type="text" id="parent1phone" name="parent1phone" maxlength="15" size="15" class="required">
+        </div>
+        <div class="cell">
+            <label for="parent1workphone" class="formlabel">Work Phone #</label>
+            <input type="text" id="parent1workphone" name="parent1workphone" maxlength="15" size="16">
+        </div>
+        <div class="cell">
+            <label for="parent1otherphone" class="formlabel">Additional Phone #</label>
+            <input type="text" id="parent1otherphone" name="parent1otherphone" maxlength="15" size="15">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="parent1email" class="formlabel">E-mail (required)</label>
+            <input type="text" id="parent1email" name="parent1email" maxlength="50" size="30" class="required">
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Emergency Contact Information</legend>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="econtact1" class="formlabel">Name</label>
+            <input type="text" id="econtact1" name="econtact1" maxlength="75" size="20" class="required">
+        </div>
+        <div class="cell">
+            <label for="econtact1rel" class="formlabel">Relation</label>
+            <input type="text" id="econtact1rel" name="econtact1rel" maxlength="75" size="20" class="required">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="econtact1work" class="formlabel">Work #</label>
+            <input type="text" id="econtact1work" name="econtact1work" maxlength="25" size="20">
+        </div>
+        <div class="cell">
+            <label for="econtact1cell" class="formlabel">Cell #</label>
+            <input type="text" id="econtact1cell" name="econtact1cell" maxlength="25" size="20" class="required">
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Enrollment Selection</legend>
+    <div class="row">
+        <div class="cell firstcell" style="width:100%">
+            <div class="instruction">Select Session:</div>
+            <input type="radio" id="session1" name="session" class="checkbox" value="1">
+            <label for="session1">Summer Session (July 8 - 12)</label><br>
+            <input type="radio" id="session2" name="session" class="checkbox" value="2">
+            <label for="session2">Winter Session (July 15 - 19)</label><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell" style="width:100%">
+            <div class="instruction">Are you a CRC Member or UMass Lowell faculty/Staff?</div>
+            <input type="radio" id="crcyes" name="crcMember" class="checkbox" value="yes">
+            <label for="crcyes">Yes</label>
+            <input type="radio" id="crcno" name="crcMember" class="checkbox" value="no">
+            <label for="crcno">No</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <div class="instruction">Do you require after camp care?</div>
+            <input type="radio" id="afrecareyes" name="afterCampCare" class="checkbox" value="yes">
+            <label for="afrecareyes">Yes</label>
+            <input type="radio" id="aftercareno" name="afterCampCare" class="checkbox" value="no">
+            <label for="aftercareno">No</label>
+        </div>
+    </div>
+    <div class="row"><br><br>
+        <div id="MainContent_PrimaryBodyContent_TopContent_wcHealth" class="alert">
+
+            <p>Please <a href="RecKids2013.pdf"><strong>download</strong></a>  and complete these required health and liability forms.
+                NOTE: These forms must be submitted before June 26th @ 6pm (which is also the date/time of parent orientation).   You can fill out these forms at the Campus Recreation Center but we recommend that parents download/print them out now &amp; send the completed forms to the attention of Meg Flynn, UML Campus Rec Center, 100 Pawtucket St. Lowell, MA 01854; you may also fax the forms to us at 978-934-3041.
+            </p>
+
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Acknowledgement of Terms</legend>
+    <div class="row">
+        <div class="cell firstcell" id="acknowledge">
+            <p style="color: Red;">
+                FULL PAYMENT MUST BE RECEIVED NO LATER THAN TUESDAY, MAY 31st, 2013</p>
+            <p>
+                Camp is a tuition-for-service program based on confirmation enrollments and secured
+                deposits. A $50 per-session non-refundable non-transferable deposit is required.
+                Enrollment forms will be processed as outlined in the camp brochure. I understand
+                that the reservation will be held by my deposit until May 31st, 2013. At that time,
+                the balance in full must be received. If full payment is not received by this time,
+                my reservation(s) will be cancelled.
+            </p>
+            <p style="font-weight: bold;">
+                Parent or Guardian - Your signature below indicates compliance with summer camp
+                regulations.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <label for="signatureName" class="formlabel">
+                Parent/Guardian Signature</label>
+            <input type="text" id="signatureName" name="signatureName" maxlength="50" size="50" class="required">
+        </div>
+        <div class="cell ">
+            <label for="signatureName" class="formlabel">
+                Date</label>
+            <input type="text" id="signatureDate" name="signatureDate" maxlength="10" size="6" class="required">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell">
+            <div class="errorMessage">
+            </div>
+            <input type="submit" value="Submit">
+            <!--<a href="javascript:resetform();" id="resetLink">clear form</a>-->
+        </div>
+    </div>
+</fieldset>
+</div>
+
 {%  endblock maincontent %}
 
-{%  block rightcolumn %}
-<div class="holder">
-    <h2 class="title">Summer Schedule: Importand dates</h2>
-    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
-    <ul>
-        <li><a href="#">Lorem ipsum dolor sit</a></li>
-        <li>Etiam vel sapien et</li>
-        <li><a href="#">Etiam vel sapien et</a></li>
-    </ul>
-    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
-    <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-</div>
-<div class="holder">
-    <h2 class="title">Lorem ipsum dolor</h2>
-    <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
-    <div class="imgholder"><img src="images/demo/240x90.gif" alt="" /></div>
-    <div class="imgholder last"><img src="images/demo/240x90.gif" alt="" /></div>
-</div>
-{%  endblock rightcolumn %}
