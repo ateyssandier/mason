@@ -4,6 +4,7 @@
   margin:0;
   padding:0 0 12px 0;
   text-align:left;
+  height:  20px;
 
   a{
     text-transform:uppercase;
@@ -38,7 +39,11 @@
   }
 
   ul.dropdown{
-    position: relative;
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+    margin-top: 17px;
     li {
       font-weight: bold;
       float: left;
@@ -64,16 +69,18 @@
       width: 220px;
       display:none;
       position: absolute;
-      top: 130%;
+      top: 20px;
       left: 0;
       z-index: 1;
       margin-left: 0px;
+      padding-top: 12px;
 
       li {
         font-weight: normal;
         background: #f6f6f6;
         float: none;
         display:inline;
+        clear: both;
 
 
         a {

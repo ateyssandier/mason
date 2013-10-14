@@ -22,6 +22,11 @@
 $(document).ready(function () {
     $(".hoverli").hover(
         function () {
+            $(this).hover(function() {
+            }, function(){
+                $(this).find("ul.sub_menu").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+            });
+
             $(this).find('ul.sub_menu').slideDown('fast');
         },
         function () {
