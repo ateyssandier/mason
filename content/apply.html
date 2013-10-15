@@ -15,12 +15,6 @@ extends: base.j2
         }
     }
 
-    jQuery.validator.addMethod("phoneUS", function(phone_number, element) {
-        phone_number = phone_number.replace(/\s+/g, "");
-        return this.optional(element) || phone_number.length > 9 &&
-                phone_number.match(/^(1-?)?(\([2-9]\d{2}\)|[2-9]\d{2})-?[2-9]\d{2}-?\d{4}$/);
-    }, "Please specify a valid phone number");
-
     $(document).ready(function () {
         //        $('#birthdate').mask('99/99/9999');
         $('#econtact1work').mask('(999) 999-9999');
@@ -39,10 +33,7 @@ extends: base.j2
         $('#theForm').validate({
             rules: {
                 gender: 'required',
-                session: 'required',
-                crcMember: 'required',
-                afterCampCare: 'required',
-                additionalChild: 'required'
+                session: 'required'
             },
             errorPlacement: function (error, element) {
                 if (element.attr('type') != 'radio') {
@@ -62,60 +53,14 @@ extends: base.j2
             },
             submitHandler: onsubmit
         });
-
-//    updateHealthFormPanel();
-
-        $("input[name='crcMember']").change(updateHealthFormPanel);
-
     });
 
 
-    function updateHealthFormPanel() {
-        return;
-
-        if ($("input[name='crcMember']:checked").val() != 'no') {
-            $('.alert').hide(0);
-        } else {
-            $('.alert').show(0);
-        }
-    }
-
     baseurl = 'https://login.ezfacility.com/app/OnlineRegistrations/Register.aspx?CompanyID=927&GroupID='
-    var groupids = { session1: { member: { nocare: { primary: 162239, additional: 162241 },
-        care: { primary: 162245, additional: 162242}},
-        nonmember: { nocare: { primary: 162240, additional: 162246 },
-            care: { primary: 162243, additional: 162247}}},
-        session2: { member: { nocare: { primary: 162258, additional: 162260 },
-            care: { primary: 162261, additional: 162262}},
-            nonmember: { nocare: { primary: 162259, additional: 162264 },
-                care: { primary: 162265, additional: 162266}}},
-        session3: { member: { nocare: { primary: 162271, additional: 162272 },
-            care: { primary: 162273, additional: 162274}},
-            nonmember: { nocare: { primary: 162267, additional: 162268 },
-                care: { primary: 162269, additional: 162270}}},
-        session4: { member: { nocare: { primary: 162275, additional: 162276 },
-            care: { primary: 162278, additional: 162277}},
-            nonmember: { nocare: { primary: 162279, additional: 162281 },
-                care: { primary: 162280, additional: 162282}}}};
+
 
     function onsubmit(form)
     {
-        var session = $('input[name=session]:checked').val()
-        var member = $('input[name=crcMember]:checked').val()
-        var aftercamp = $('input[name=afterCampCare]:checked').val()
-        var additionalChild = $('input[name=additionalChild]:checked').val();
-        var o;
-        switch(session)
-        {
-            case '1': o = groupids.session1;break;
-            case '2': o = groupids.session2;break;
-            case '3': o = groupids.session3;break;
-            case '4': o = groupids.session4;break;
-            default: alert('error occurred');
-        }
-        if (member == 'yes') o = o.member; else o = o.nonmember;
-        if (aftercamp == 'yes') o = o.care; else o = o.nocare;
-        if (additionalChild == 'yes' ) o = o.additional; else o = o.primary;
         $('input[name=ThankYouUrl]').val(baseurl + o);
 //    alert($('input[name=ThankYouUrl]').val());
 //    return false;
@@ -126,18 +71,17 @@ extends: base.j2
 
 
 </script>
-<title>UMass Lowell RecKids Summer Camp Registration</title>
+<title>Cambridge Basketball Academy Regisration Form</title>
 
 
 <div class="errorMessage">&nbsp;</div>
-
+<form>
 <input type="hidden" name="SPAMSTOP" value="true">
 <input type="text" id="recondite" name="subject" maxlength="50">
 <input type="hidden" name="mode" value="2">
-<input type="hidden" name="MailFrom" value="websupport@uml.edu">
-<input type="hidden" name="MailTo" value="Meghan_Flynn@uml.edu">
-<input type="hidden" name="MailSubject" value="UMass Lowell RecKids Summer Camp Registration">
-<input type="hidden" name="ThankYouUrl" value="">
+<input type="hidden" name="MailFrom" value="Info@Cambridgebasketballacademy.com">
+<input type="hidden" name="MailTo" value="Info@Cambridgebasketballacademy.com">
+<input type="hidden" name="MailSubject" value="Cambridge Basketball Acaedmy Registration">
 <fieldset>
     <legend>Camper Information</legend>
     <div class="row">
@@ -261,37 +205,19 @@ extends: base.j2
     <div class="row">
         <div class="cell firstcell" style="width:100%">
             <div class="instruction">Select Session:</div>
-            <input type="radio" id="session1" name="session" class="checkbox" value="1">
-            <label for="session1">Summer Session (July 8 - 12)</label><br>
-            <input type="radio" id="session2" name="session" class="checkbox" value="2">
-            <label for="session2">Winter Session (July 15 - 19)</label><br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="cell firstcell" style="width:100%">
-            <div class="instruction">Are you a CRC Member or UMass Lowell faculty/Staff?</div>
-            <input type="radio" id="crcyes" name="crcMember" class="checkbox" value="yes">
-            <label for="crcyes">Yes</label>
-            <input type="radio" id="crcno" name="crcMember" class="checkbox" value="no">
-            <label for="crcno">No</label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="cell firstcell">
-            <div class="instruction">Do you require after camp care?</div>
-            <input type="radio" id="afrecareyes" name="afterCampCare" class="checkbox" value="yes">
-            <label for="afrecareyes">Yes</label>
-            <input type="radio" id="aftercareno" name="afterCampCare" class="checkbox" value="no">
-            <label for="aftercareno">No</label>
+            <input type="radio" id="sessionA" name="session" class="checkbox" value="1">
+            <label for="session1">Session A (August 11 - 15)</label><br>
+            <input type="radio" id="sessionB" name="session" class="checkbox" value="2">
+            <label for="session2">Session B (August 18 - 22)</label><br>
+            <input type="radio" id="sessionC" name="session" class="checkbox" value="2">
+            <label for="session2">Session C (August 25 - 29)</label><br>
         </div>
     </div>
     <div class="row"><br><br>
-        <div id="MainContent_PrimaryBodyContent_TopContent_wcHealth" class="alert">
-
-            <p>Please <a href="RecKids2013.pdf"><strong>download</strong></a>  and complete these required health and liability forms.
-                NOTE: These forms must be submitted before June 26th @ 6pm (which is also the date/time of parent orientation).   You can fill out these forms at the Campus Recreation Center but we recommend that parents download/print them out now &amp; send the completed forms to the attention of Meg Flynn, UML Campus Rec Center, 100 Pawtucket St. Lowell, MA 01854; you may also fax the forms to us at 978-934-3041.
+        <div class="alert">
+            <p>Please <a href="admissions/paperwork.html"><strong>download</strong></a>  and complete these required health and liability forms.
+                NOTE: These forms must be submitted before June 26th @ 6pm.
             </p>
-
         </div>
     </div>
 </fieldset>
@@ -302,12 +228,8 @@ extends: base.j2
             <p style="color: Red;">
                 FULL PAYMENT MUST BE RECEIVED NO LATER THAN TUESDAY, MAY 31st, 2013</p>
             <p>
-                Camp is a tuition-for-service program based on confirmation enrollments and secured
-                deposits. A $50 per-session non-refundable non-transferable deposit is required.
-                Enrollment forms will be processed as outlined in the camp brochure. I understand
-                that the reservation will be held by my deposit until May 31st, 2013. At that time,
-                the balance in full must be received. If full payment is not received by this time,
-                my reservation(s) will be cancelled.
+                Cambridge Basketball Academy is a tuition-for-service program. Registration forms will not be processed until payment
+                is received. If full payment is not received by May 31st, 2013 my reservation(s) will be cancelled.
             </p>
             <p style="font-weight: bold;">
                 Parent or Guardian - Your signature below indicates compliance with summer camp
@@ -331,10 +253,14 @@ extends: base.j2
             <div class="errorMessage">
             </div>
             <input type="submit" value="Submit">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             <!--<a href="javascript:resetform();" id="resetLink">clear form</a>-->
         </div>
     </div>
 </fieldset>
+</form>
+
 </div>
 
 {%  endblock maincontent %}

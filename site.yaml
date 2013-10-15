@@ -83,7 +83,7 @@ meta:
     created: !!timestamp 2010-01-01 00:00:00
     author: Alex Teyssandier
     title: Cambridge Basketball Academy
-    subtext: Feeding chinese social pressure one child at a time
+    subtext: 
     address: 123 main street
     city: Somerville
     state: MA
@@ -98,13 +98,3 @@ sorter:
         filters:
             source.kind: html
             meta.listable: true
-tagger:
-    sorter: time
-    archives:
-        blog:
-            source: blog
-            target: blog/tags
-            template: tagged_posts.j2
-            archive_extension: html
-            meta:
-                listable: false
