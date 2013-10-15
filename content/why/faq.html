@@ -1,9 +1,12 @@
 ---
 extends: base.j2
-default_block: maincontent
 ---
-
-
+{%  block maincontent %}
+<h1 class="title">FAQ</h1>
+<p>
+    This page is under construction
+</p>
+{%  block rightcolumn %}
 <h1 class="title">Main Title Here</h1>
 <div class="imgholder"><img src="images/demo/410x215.gif" alt="" /></div>
 <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>.</p>
@@ -42,3 +45,4 @@ default_block: maincontent
     <li>Vivamus non est nunc, non pulvinar libero.</li>
 </ul>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et sapien id quam sodales tincidunt. Cras facilisis mi eu nibh ultricies sed malesuada metus varius.</p>
+{%  endblock rightcolumn %}
