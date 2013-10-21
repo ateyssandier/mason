@@ -11,7 +11,7 @@ plugins:
     - hyde.ext.plugins.text.TextlinksPlugin
     - hyde.ext.plugins.less.LessCSSPlugin
 less:
-  app: /usr/local/share/npm/bin/lessc
+  app: /bin/lessc
 context:
     data:
         tweet_via: ringce
@@ -83,7 +83,7 @@ meta:
     created: !!timestamp 2010-01-01 00:00:00
     author: Alex Teyssandier
     title: Cambridge Basketball Academy
-    subtext: 
+    subtext: none
     address: 123 main street
     city: Somerville
     state: MA
