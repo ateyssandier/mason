@@ -75,27 +75,21 @@ extends: base.j2
 
 
 <div class="errorMessage">&nbsp;</div>
-<form>
-<input type="hidden" name="SPAMSTOP" value="true">
-<input type="text" id="recondite" name="subject" maxlength="50">
-<input type="hidden" name="mode" value="2">
-<input type="hidden" name="MailFrom" value="Info@Cambridgebasketballacademy.com">
-<input type="hidden" name="MailTo" value="Info@Cambridgebasketballacademy.com">
-<input type="hidden" name="MailSubject" value="Cambridge Basketball Acaedmy Registration">
+<form action="payments.php" method="post">
+<input type="hidden" name="subject" value="Cambridge Basketball Academy Registration" />
+<input name="cmd" type="hidden" value="_xclick" />
+<input type="hidden" name="currency_code" value="USD">
+
 <fieldset>
     <legend>Camper Information</legend>
     <div class="row">
         <div class="cell firstcell">
-            <label for="last" class="formlabel">Last</label>
-            <input type="text" maxlength="50" name="last" id="last" size="20" class="required">
+            <label for="last_name" class="formlabel">Last</label>
+            <input type="text" maxlength="50" name="last_name" id="last_name" size="20" class="required">
         </div>
         <div class="cell">
-            <label for="first" class="formlabel">First</label>
-            <input type="text" maxlength="50" name="first" id="first" size="20" class="required">
-        </div>
-        <div class="cell">
-            <label for="middle" class="formlabel">Middle</label>
-            <input type="text" maxlength="1" name="middle" id="middle" size="3">
+            <label for="first_name" class="formlabel">First</label>
+            <input type="text" maxlength="50" name="first_name" id="first_name" size="20" class="required">
         </div>
     </div>
     <div class="row">
@@ -134,46 +128,42 @@ extends: base.j2
     <legend>Parent/Guardian Contact Info</legend>
     <div class="row">
         <div class="cell firstcell">
-            <label for="parent1name" class="formlabel">Name</label>
-            <input type="text" id="parent1name" name="parent1name" maxlength="75" size="30" class="required">
+            <label for="parent_name" class="formlabel">Name</label>
+            <input type="text" id="parent_name" name="parent_name" maxlength="75" size="30" class="required">
         </div>
         <div class="cell">
-            <label for="parent1address" class="formlabel">Address</label>
-            <input type="text" id="parent1address" name="parent1address" maxlength="75" size="30" class="required">
+            <label for="parent_address" class="formlabel">Address</label>
+            <input type="text" id="parent_address" name="parent_address" maxlength="75" size="30" class="required">
         </div>
     </div>
     <div class="row">
         <div class="cell firstcell">
-            <label for="parent1city" class="formlabel">City</label>
-            <input type="text" id="parent1city" name="parent1city" maxlength="75" size="30" class="required">
+            <label for="parent_city" class="formlabel">City</label>
+            <input type="text" id="parent_city" name="parent_city" maxlength="75" size="30" class="required">
         </div>
         <div class="cell">
-            <label for="parent1zip" class="formlabel">Post Code</label>
-            <input type="text" id="parent1zip" name="parent1zip" maxlength="15" size="15" class="required">
+            <label for="parent_zip" class="formlabel">Post Code</label>
+            <input type="text" id="parent_zip" name="parent_zip" maxlength="15" size="15" class="required">
         </div>
         <div class="cell">
-            <label for="parent1state" class="formlabel">Province</label>
-            <input type="text" id="parent1state" name="parent1state" maxlength="2" size="2" class="required">
+            <label for="parent_province" class="formlabel">Province</label>
+            <input type="text" id="parent_province" name="parent_province" maxlength="2" size="2" class="required">
         </div>
     </div>
     <div class="row">
         <div class="cell firstcell">
-            <label for="parent1phone" class="formlabel">Preferred Phone #</label>
-            <input type="text" id="parent1phone" name="parent1phone" maxlength="15" size="15" class="required">
+            <label for="parent_phone" class="formlabel">Preferred Phone #</label>
+            <input type="text" id="parent_phone" name="parent_phone" maxlength="15" size="15" class="required">
         </div>
         <div class="cell">
             <label for="parent1workphone" class="formlabel">Work Phone #</label>
             <input type="text" id="parent1workphone" name="parent1workphone" maxlength="15" size="16">
         </div>
-        <div class="cell">
-            <label for="parent1otherphone" class="formlabel">Additional Phone #</label>
-            <input type="text" id="parent1otherphone" name="parent1otherphone" maxlength="15" size="15">
-        </div>
     </div>
     <div class="row">
         <div class="cell firstcell">
-            <label for="parent1email" class="formlabel">E-mail (required)</label>
-            <input type="text" id="parent1email" name="parent1email" maxlength="50" size="30" class="required">
+            <label for="parent_email" class="formlabel">E-mail (required)</label>
+            <input type="text" id="parent_email" name="parent_email" maxlength="50" size="30" class="required">
         </div>
     </div>
 </fieldset>
@@ -181,22 +171,22 @@ extends: base.j2
     <legend>Emergency Contact Information</legend>
     <div class="row">
         <div class="cell firstcell">
-            <label for="econtact1" class="formlabel">Name</label>
-            <input type="text" id="econtact1" name="econtact1" maxlength="75" size="20" class="required">
+            <label for="econtact_name" class="formlabel">Name</label>
+            <input type="text" id="econtact_name" name="econtact_name" maxlength="75" size="20" class="required">
         </div>
         <div class="cell">
-            <label for="econtact1rel" class="formlabel">Relation</label>
-            <input type="text" id="econtact1rel" name="econtact1rel" maxlength="75" size="20" class="required">
+            <label for="econtact_relation" class="formlabel">Relation</label>
+            <input type="text" id="econtact_relation" name="econtact_relation" maxlength="75" size="20" class="required">
         </div>
     </div>
     <div class="row">
         <div class="cell firstcell">
-            <label for="econtact1work" class="formlabel">Work #</label>
-            <input type="text" id="econtact1work" name="econtact1work" maxlength="25" size="20">
+            <label for="econtact_work" class="formlabel">Work #</label>
+            <input type="text" id="econtact_work" name="econtact_work" maxlength="25" size="20">
         </div>
         <div class="cell">
-            <label for="econtact1cell" class="formlabel">Cell #</label>
-            <input type="text" id="econtact1cell" name="econtact1cell" maxlength="25" size="20" class="required">
+            <label for="econtact_cell" class="formlabel">Cell #</label>
+            <input type="text" id="econtact_cell" name="econtact_cell" maxlength="25" size="20" class="required">
         </div>
     </div>
 </fieldset>
@@ -215,7 +205,7 @@ extends: base.j2
     </div>
     <div class="row"><br><br>
         <div class="alert">
-            <p>Please <a href="admissions/paperwork.html"><strong>download</strong></a>  and complete these required health and liability forms.
+            <p>Please <a href="admissions/paperwork"><strong>download</strong></a>  and complete these required health and liability forms.
                 NOTE: These forms must be submitted before June 26th @ 6pm.
             </p>
         </div>
@@ -252,8 +242,7 @@ extends: base.j2
         <div class="cell firstcell">
             <div class="errorMessage">
             </div>
-            <input type="submit" value="Submit">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             <!--<a href="javascript:resetform();" id="resetLink">clear form</a>-->
         </div>
