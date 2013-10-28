@@ -8,13 +8,13 @@
             {{ resource.meta.city }}, {{ resource.meta.state }}<br />
             {{ resource.meta.zip }}<br />
             <br />
-            Tel: {{ resource.meta.phone }}<br />
+            <!--Tel:--> {# resource.meta.phone  #} <!--<br />-->
             Email: <a href="#">{{ resource.meta.email }}</a>
         </address>
     </div>
     <div class="fl_right">
         <div id="social" class="clear">
-            some image here
+            <img width=200 src="{{ media_url('/images/footer_pic.jpg') }}" alt="CBA" />
         </div>
     </div>
 </footer>

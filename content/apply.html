@@ -81,6 +81,27 @@ extends: base.j2
 <input type="hidden" name="currency_code" value="USD">
 
 <fieldset>
+    <legend>Enrollment Selection</legend>
+    <div class="row">
+        <div class="cell firstcell" style="width:100%">
+            <div class="instruction">Select Session:</div>
+            <input type="radio" id="sessionA" name="session" class="checkbox" value="1">
+            <label for="session1">Session A (August 11 - 15)</label><br>
+            <input type="radio" id="sessionB" name="session" class="checkbox" value="2">
+            <label for="session2">Session B (August 18 - 22)</label><br>
+            <input type="radio" id="sessionC" name="session" class="checkbox" value="2">
+            <label for="session2">Session C (August 25 - 29)</label><br>
+        </div>
+    </div>
+    <div class="row"><br><br>
+        <div class="alert">
+            <p>Please <a href="admissions/paperwork"><strong>download</strong></a>  and complete these required health and liability forms.
+                NOTE: These forms must be submitted before June 26th @ 6pm.
+            </p>
+        </div>
+    </div>
+</fieldset>
+<fieldset>
     <legend>Camper Information</legend>
     <div class="row">
         <div class="cell firstcell">
@@ -97,10 +118,6 @@ extends: base.j2
             <label for="birthdate" class="formlabel">Birth Date (MM/DD/YYYY):</label>
             <input type="text" name="birthdate" id="birthdate" class="required" maxlength="10">
         </div>
-        <div class="cell">
-            <label for="age" class="formlabel">Age as of 7/8/2013</label>
-            <input type="text" name="age" id="age" maxlength="2" size="5" class="required">
-        </div>
     </div>
     <div class="row">
     </div>
@@ -114,10 +131,6 @@ extends: base.j2
         </div>
         <div class="cell">
             <label for="tshirtSize" class="formlabel">T-Shirt Size</label>
-            <input type="radio" id="6-8youth" name="tshirtSize" value="6-8youth"> <label for="6-8youth">6-8 Youth</label>
-            <input type="radio" id="8-10youth" name="tshirtSize" value="8-10youth"> <label for="8-10youth">8-10 Youth</label>
-            <input type="radio" id="10-11youth" name="tshirtSize" value="10-11youth"> <label for="10-11youth">10-11 Youth</label>
-            <br>
             <input type="radio" id="adultsmall" name="tshirtSize" value="adultsmall"> <label for="adultsmall">Adult - Small</label>
             <input type="radio" id="adultmedium" name="tshirtSize" value="adultmedium"> <label for="adultmedium">Adult - Medium</label>
             <input type="radio" id="adultlarge" name="tshirtSize" value="adultlarge"> <label for="adultlarge">Adult - Large</label>
@@ -168,46 +181,35 @@ extends: base.j2
     </div>
 </fieldset>
 <fieldset>
-    <legend>Emergency Contact Information</legend>
+    <legend>Current School Information</legend>
     <div class="row">
-        <div class="cell firstcell">
-            <label for="econtact_name" class="formlabel">Name</label>
-            <input type="text" id="econtact_name" name="econtact_name" maxlength="75" size="20" class="required">
+        <div class="cell">
+            <label for="school_name" class="formlabel">Current School</label>
+            <input type="text" name="school_name" id="school_name" maxlength="2" size="5" class="required">
         </div>
         <div class="cell">
-            <label for="econtact_relation" class="formlabel">Relation</label>
-            <input type="text" id="econtact_relation" name="econtact_relation" maxlength="75" size="20" class="required">
+            <label for="school_address" class="formlabel">Address</label>
+            <input type="text" id="school_address" name="school_address" maxlength="75" size="30" class="required">
         </div>
     </div>
     <div class="row">
         <div class="cell firstcell">
-            <label for="econtact_work" class="formlabel">Work #</label>
-            <input type="text" id="econtact_work" name="econtact_work" maxlength="25" size="20">
+            <label for="school_city" class="formlabel">City</label>
+            <input type="text" id="school_city" name="school_city" maxlength="75" size="30" class="required">
         </div>
         <div class="cell">
-            <label for="econtact_cell" class="formlabel">Cell #</label>
-            <input type="text" id="econtact_cell" name="econtact_cell" maxlength="25" size="20" class="required">
+            <label for="school_zip" class="formlabel">Post Code</label>
+            <input type="text" id="school_zip" name="school_zip" maxlength="15" size="15" class="required">
+        </div>
+        <div class="cell">
+            <label for="school_state" class="formlabel">Province</label>
+            <input type="text" id="school_state" name="school_state" maxlength="2" size="2" class="required">
         </div>
     </div>
-</fieldset>
-<fieldset>
-    <legend>Enrollment Selection</legend>
     <div class="row">
-        <div class="cell firstcell" style="width:100%">
-            <div class="instruction">Select Session:</div>
-            <input type="radio" id="sessionA" name="session" class="checkbox" value="1">
-            <label for="session1">Session A (August 11 - 15)</label><br>
-            <input type="radio" id="sessionB" name="session" class="checkbox" value="2">
-            <label for="session2">Session B (August 18 - 22)</label><br>
-            <input type="radio" id="sessionC" name="session" class="checkbox" value="2">
-            <label for="session2">Session C (August 25 - 29)</label><br>
-        </div>
-    </div>
-    <div class="row"><br><br>
-        <div class="alert">
-            <p>Please <a href="admissions/paperwork"><strong>download</strong></a>  and complete these required health and liability forms.
-                NOTE: These forms must be submitted before June 26th @ 6pm.
-            </p>
+        <div class="cell firstcell">
+            <label for="school_phone" class="formlabel">Phone #</label>
+            <input type="text" id="school_phone" name="school_phone" maxlength="25" size="20">
         </div>
     </div>
 </fieldset>

@@ -23,14 +23,10 @@ context:
                 type: page
                 url: why/index.html
                 submenu:
-                    - name: Coach Halloway
+                    - name: Elite Instruction
                       url: why/c_halloway.html
-                    - name: Typical Day
-                      url: why/typical_day.html
                     - name: Evening Mentor Program
                       url: why/evening.html
-                    - name: FAQ
-                      url: why/faq.html
             -
                 name: Admissions
                 description: Admissions
@@ -54,16 +50,21 @@ context:
                     - name: Winter Break Camp
                       url: sessions/winter_session.html
             -
-                name: Residence
-                description: Residence
-                css_class: residence
+                name: Campus Life
+                description: Campus Life
+                css_class: campus
                 type: page
-                url: residence/index.html
+                url: campus_life/index.html
                 submenu:
+                    - name: Residence
+                      url: campus_life/residence.html
                     - name: Meals
-                      url: residence/meals.html
+                      url: campus_life/meals.html
                     - name: Rules
-                      url: residence/rules.html
+                      url: campus_life/rules.html
+                    - name: Boston Area
+                      url: campus_life/boston.html
+
             -
                 name: Contact Info
                 description: Contact
@@ -84,12 +85,12 @@ meta:
     author: Alex Teyssandier
     title: Cambridge Basketball Academy
     subtext: none
-    address: 123 main street
-    city: Somerville
+    address: Harvard Square
+    city: Cambridge
     state: MA
-    zip: 02145
+    zip: 02139
     phone: 123-456-7890
-    email: email@mail.com
+    email: info@CambridgeBasketballAcademy.com
 sorter:
     time:
         attr:

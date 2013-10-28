@@ -62,8 +62,9 @@
                   <div id="container" class="clear">
                       <!-- ####################################################################################################### -->
                       <div id="left_column">
-                          {%  block leftcolumn %}
-                          {%  endblock leftcolumn %}
+                      {%  block leftcolumn %}
+                          {% include "leftcolumn.j2" %}
+                      {%  endblock leftcolumn %}
                       </div>
                       <!-- ############ -->
                       <div id="content">

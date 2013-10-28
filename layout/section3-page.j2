@@ -1,10 +1,9 @@
 <div class="wrapper row3">
     <div id="container" class="clear">
         <!-- ####################################################################################################### -->
-        <div id="left_column">
-            {%  block leftcolumn %}
-            {%  endblock leftcolumn %}
-        </div>
+        {%  block leftcolumn %}
+            {% include "leftcolumn.j2" %}
+        {%  endblock leftcolumn %}
         <!-- ############ -->
         <div id="content">
             <div class="holder">
