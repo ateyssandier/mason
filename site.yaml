@@ -11,7 +11,7 @@ plugins:
     - hyde.ext.plugins.text.TextlinksPlugin
     - hyde.ext.plugins.less.LessCSSPlugin
 less:
-  app: /bin/lessc
+  app: /usr/local/share/npm/bin/lessc
 context:
     data:
         tweet_via: ringce
@@ -47,7 +47,7 @@ context:
                 submenu:
                     - name: Summer Session
                       url: sessions/summer_session.html
-                    - name: Winter Break Camp
+                    - name:  School Break Camps
                       url: sessions/winter_session.html
             -
                 name: Campus Life
@@ -84,7 +84,7 @@ meta:
     created: !!timestamp 2010-01-01 00:00:00
     author: Alex Teyssandier
     title: Cambridge Basketball Academy
-    subtext: none
+    subtext: Crossover to Cambridge
     address: Harvard Square
     city: Cambridge
     state: MA

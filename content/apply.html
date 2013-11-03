@@ -16,11 +16,6 @@ extends: base.j2
     }
 
     $(document).ready(function () {
-        //        $('#birthdate').mask('99/99/9999');
-        $('#econtact1work').mask('(999) 999-9999');
-        $('#econtact1cell').mask('(999) 999-9999');
-        $('#econtact2work').mask('(999) 999-9999');
-        $('#econtact2cell').mask('(999) 999-9999');
         $('#birthdate').mask('99/99/9999');
         $('#signatureDate').mask('99/99/9999');
 
@@ -30,10 +25,14 @@ extends: base.j2
         $.validator.messages.required = '*';
 
 
-        $('#theForm').validate({
+        $('#application_form').validate({
             rules: {
                 gender: 'required',
-                session: 'required'
+                session: 'required',
+                last_name: 'required',
+                last_name: 'required',
+                last_name: 'required',
+
             },
             errorPlacement: function (error, element) {
                 if (element.attr('type') != 'radio') {
@@ -56,26 +55,12 @@ extends: base.j2
     });
 
 
-    baseurl = 'https://login.ezfacility.com/app/OnlineRegistrations/Register.aspx?CompanyID=927&GroupID='
-
-
-    function onsubmit(form)
-    {
-        $('input[name=ThankYouUrl]').val(baseurl + o);
-//    alert($('input[name=ThankYouUrl]').val());
-//    return false;
-        form.submit();
-//    return true;
-    }
-
-
-
 </script>
 <title>Cambridge Basketball Academy Regisration Form</title>
 
 
 <div class="errorMessage">&nbsp;</div>
-<form action="payments.php" method="post">
+<form id="application_form" action="payments.php" method="post">
 <input type="hidden" name="subject" value="Cambridge Basketball Academy Registration" />
 <input name="cmd" type="hidden" value="_xclick" />
 <input type="hidden" name="currency_code" value="USD">
@@ -93,10 +78,10 @@ extends: base.j2
             <label for="session2">Session C (August 25 - 29)</label><br>
         </div>
     </div>
-    <div class="row"><br><br>
+    <div class="row">
         <div class="alert">
-            <p>Please <a href="admissions/paperwork"><strong>download</strong></a>  and complete these required health and liability forms.
-                NOTE: These forms must be submitted before June 26th @ 6pm.
+            <p class="strong">Please <a href="admissions/paperwork"><strong>download</strong></a>  and complete these required health and liability forms.
+                Forms must be signed, scanned and submitted via email prior to your arrival.
             </p>
         </div>
     </div>
@@ -125,7 +110,7 @@ extends: base.j2
         <div class="cell firstcell">
             <label for="gender" class="formlabel">Gender</label>
             <input type="radio" id="male" name="gender" class="checkbox" value="M">
-            <label for="male">Male</label><br>
+            <label for="male">Male</label>
             <input type="radio" id="female" name="gender" class="checkbox" value="F">
             <label for="female">Female</label>
         </div>
@@ -160,7 +145,7 @@ extends: base.j2
         </div>
         <div class="cell">
             <label for="parent_province" class="formlabel">Province</label>
-            <input type="text" id="parent_province" name="parent_province" maxlength="2" size="2" class="required">
+            <input type="text" id="parent_province" name="parent_province" maxlength="75" size="30" class="required">
         </div>
     </div>
     <div class="row">
@@ -185,7 +170,7 @@ extends: base.j2
     <div class="row">
         <div class="cell">
             <label for="school_name" class="formlabel">Current School</label>
-            <input type="text" name="school_name" id="school_name" maxlength="2" size="5" class="required">
+            <input type="text" name="school_name" id="school_name" maxlength="75" size="30" class="required">
         </div>
         <div class="cell">
             <label for="school_address" class="formlabel">Address</label>
@@ -221,7 +206,7 @@ extends: base.j2
                 FULL PAYMENT MUST BE RECEIVED NO LATER THAN TUESDAY, MAY 31st, 2013</p>
             <p>
                 Cambridge Basketball Academy is a tuition-for-service program. Registration forms will not be processed until payment
-                is received. If full payment is not received by May 31st, 2013 my reservation(s) will be cancelled.
+                is received. <a href="/cancellation.html"> Please see our Cancellation and Refund Policy.</a>
             </p>
             <p style="font-weight: bold;">
                 Parent or Guardian - Your signature below indicates compliance with summer camp
@@ -237,7 +222,7 @@ extends: base.j2
         <div class="cell ">
             <label for="signatureName" class="formlabel">
                 Date</label>
-            <input type="text" id="signatureDate" name="signatureDate" maxlength="10" size="6" class="required">
+            <input type="text" id="signatureDate" name="signatureDate" maxlength="10" size="10" class="required">
         </div>
     </div>
     <div class="row">
