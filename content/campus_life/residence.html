@@ -3,11 +3,19 @@ extends: base.j2
 ---
 {%  block maincontent %}
 <h1 class="title">Residence</h1>
-<p>
+<div style="clear:left; padding-top:10px;">
+
+    <p>
     The CBA places students at some of the top hotel in the Harvard Square area. For example;
 </p>
 <ul>
-    <li><a href="http://cambridge.hyatt.com/en/hotel/home.html">http://cambridge.hyatt.com/en/hotel/home.html</a></li>
-    <li><a href="http://www.sheratoncommander.com">http://www.sheratoncommander.com</a></li>
+    <li><a  target="_blank" href="http://cambridge.hyatt.com/en/hotel/home.html">http://cambridge.hyatt.com/en/hotel/home.html</a></li>
+    <li><a  target="_blank" href="http://www.sheratoncommander.com">http://www.sheratoncommander.com</a></li>
 </ul>
+</div>
+<p>
+<div class="imgholder" ><img width=500 src="{{ media_url('/images/residence.jpg') }}" alt="boston" /></div>
+<p>
+
+
 {%  endblock maincontent %}

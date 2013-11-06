@@ -11,11 +11,10 @@ plugins:
     - hyde.ext.plugins.text.TextlinksPlugin
     - hyde.ext.plugins.less.LessCSSPlugin
 less:
-  app: /usr/local/share/npm/bin/lessc
+  app: /bin/lessc
 context:
     data:
-        tweet_via: ringce
-        menu:
+          menu:
             -
                 name: Why CBA
                 description: Why CBA
@@ -25,7 +24,7 @@ context:
                 submenu:
                     - name: Elite Instruction
                       url: why/c_halloway.html
-                    - name: Evening Mentor Program
+                    - name: Mentor Program
                       url: why/evening.html
             -
                 name: Admissions
@@ -43,7 +42,7 @@ context:
                 description: Sessions
                 css_class: sessions
                 type: page
-                url: sessions/index.html
+                url: sessions/winter_session.html
                 submenu:
                     - name: Summer Session
                       url: sessions/summer_session.html
@@ -89,7 +88,7 @@ meta:
     city: Cambridge
     state: MA
     zip: 02139
-    phone: 123-456-7890
+    phone: 781-436-0900
     email: info@CambridgeBasketballAcademy.com
 sorter:
     time:

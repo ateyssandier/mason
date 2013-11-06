@@ -5,57 +5,6 @@ extends: base.j2
 <h1 class="title">Apply Now!</h1>
 <p>Space is limited
 <div class="form">
-<script type="text/javascript">
-
-    function resetform()
-    {
-        if (confirm('Are you sure you want to clear all the fields?'))
-        {
-            $( "form" )[ 0 ].reset();
-        }
-    }
-
-    $(document).ready(function () {
-        $('#birthdate').mask('99/99/9999');
-        $('#signatureDate').mask('99/99/9999');
-
-        //        $('#regForm').validate();
-
-
-        $.validator.messages.required = '*';
-
-
-        $('#application_form').validate({
-            rules: {
-                gender: 'required',
-                session: 'required',
-                last_name: 'required',
-                last_name: 'required',
-                last_name: 'required',
-
-            },
-            errorPlacement: function (error, element) {
-                if (element.attr('type') != 'radio') {
-                    error.appendTo(element.siblings('label'));
-                } else {
-                    error.appendTo(element.siblings().first());
-                }
-            },
-            invalidHandler: function (e, validator) {
-                var errors = validator.numberOfInvalids();
-                if (errors) {
-                    $('.errorMessage').html('Some fields are missing. Please check your form and try again.');
-                    $('.errorMessage').show();
-                } else {
-                    $('.errorMessage').hide();
-                }
-            },
-            submitHandler: onsubmit
-        });
-    });
-
-
-</script>
 <title>Cambridge Basketball Academy Regisration Form</title>
 
 
@@ -70,12 +19,14 @@ extends: base.j2
     <div class="row">
         <div class="cell firstcell" style="width:100%">
             <div class="instruction">Select Session:</div>
-            <input type="radio" id="sessionA" name="session" class="checkbox" value="1">
-            <label for="session1">Session A (August 11 - 15)</label><br>
-            <input type="radio" id="sessionB" name="session" class="checkbox" value="2">
-            <label for="session2">Session B (August 18 - 22)</label><br>
-            <input type="radio" id="sessionC" name="session" class="checkbox" value="2">
-            <label for="session2">Session C (August 25 - 29)</label><br>
+            <input type="radio" id="session1" name="session" class="checkbox" value="1">
+            <label for="session1">Holiday Break Camp (December 29 - Jan. 3)</label><br>
+            <input type="radio" id="session2" name="session" class="checkbox" value="2">
+            <label for="session2">Winter Break Camp (February 16 - 21)</label><br>
+            <input type="radio" id="session3" name="session" class="checkbox" value="2">
+            <label for="session3">Spring Break Camp I(March 16 - 21)</label><br>
+            <input type="radio" id="session4" name="session" class="checkbox" value="2">
+            <label for="session4">Spring Break Camp II(April 20 - 25)</label><br>
         </div>
     </div>
     <div class="row">
@@ -97,6 +48,10 @@ extends: base.j2
             <label for="first_name" class="formlabel">First</label>
             <input type="text" maxlength="50" name="first_name" id="first_name" size="20" class="required">
         </div>
+        <div class="cell">
+            <label for="nickname" class="formlabel">Nickname</label>
+            <input type="text" maxlength="50" name="nickname" id="nickname" size="20" class="required">
+        </div>
     </div>
     <div class="row">
         <div class="cell firstcell" style="clear:both">
@@ -107,13 +62,6 @@ extends: base.j2
     <div class="row">
     </div>
     <div class="row">
-        <div class="cell firstcell">
-            <label for="gender" class="formlabel">Gender</label>
-            <input type="radio" id="male" name="gender" class="checkbox" value="M">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" class="checkbox" value="F">
-            <label for="female">Female</label>
-        </div>
         <div class="cell">
             <label for="tshirtSize" class="formlabel">T-Shirt Size</label>
             <input type="radio" id="adultsmall" name="tshirtSize" value="adultsmall"> <label for="adultsmall">Adult - Small</label>
@@ -144,7 +92,7 @@ extends: base.j2
             <input type="text" id="parent_zip" name="parent_zip" maxlength="15" size="15" class="required">
         </div>
         <div class="cell">
-            <label for="parent_province" class="formlabel">Province</label>
+            <label for="parent_province" class="formlabel">State or Province</label>
             <input type="text" id="parent_province" name="parent_province" maxlength="75" size="30" class="required">
         </div>
     </div>
@@ -187,8 +135,8 @@ extends: base.j2
             <input type="text" id="school_zip" name="school_zip" maxlength="15" size="15" class="required">
         </div>
         <div class="cell">
-            <label for="school_state" class="formlabel">Province</label>
-            <input type="text" id="school_state" name="school_state" maxlength="2" size="2" class="required">
+            <label for="school_state" class="formlabel">State Province</label>
+            <input type="text" id="school_state" name="school_state" maxlength="75" size="30" class="required">
         </div>
     </div>
     <div class="row">
@@ -202,8 +150,6 @@ extends: base.j2
     <legend>Acknowledgement of Terms</legend>
     <div class="row">
         <div class="cell firstcell" id="acknowledge">
-            <p style="color: Red;">
-                FULL PAYMENT MUST BE RECEIVED NO LATER THAN TUESDAY, MAY 31st, 2013</p>
             <p>
                 Cambridge Basketball Academy is a tuition-for-service program. Registration forms will not be processed until payment
                 is received. <a href="/cancellation.html"> Please see our Cancellation and Refund Policy.</a>

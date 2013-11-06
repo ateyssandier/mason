@@ -6,12 +6,12 @@ $pass = ""; //database password
 $db_name = ""; //database name
  
 // PayPal settings
-$paypal_email = 'info-facilitator@cambridgebasketballacademy.com ';
+$paypal_email = 'info@cambridgebasketballacademy.com ';
 $return_url = 'http://cambridgebasketballacademy.com/registration_success.html';
 $cancel_url = 'http://cambridgebasketballacademy.com/registration_cancelled.html';
 $notify_url = 'http://cambridgebasketballacademy.com/payments.php';
  
-$item_name = 'Cambridge Basketball Regisration';
+$item_name = 'Cambridge Basketball Registration';
 $item_amount = 2550.00;
   
 // Check if paypal request or response
@@ -65,16 +65,19 @@ if (!isset($_POST["txn_id"]) && !isset($_POST["txn_type"])){
     // Append paypal return addresses
     $querystring .= "return=".urlencode(stripslashes($return_url))."&";
     $querystring .= "cancel_return=".urlencode(stripslashes($cancel_url))."&";
-    $querystring .= "notify_url=".urlencode($notify_url)."&";
+    $querystring .= "notify_url=".urlencode(stripslashes($notify_url))."&";
 
     $querystring .= "cmd=".urlencode($query_vars["cmd"])."&";
     $querystring .= "currency_code=".urlencode($query_vars["currency_code"])."&";
+    $querystring .= "no_shipping=".urlencode(1)."&";
+	$querystring .= "custom=".urlencode($random_transaction_id)."&";
  
+
     // Append querystring with custom field
     //$querystring .= "&custom=".USERID;
  
     // Redirect to paypal IPN
-    header('location:https://www.sandbox.paypal.com/cgi-bin/webscr'.$querystring);
+    header('location:https://www.paypal.com/cgi-bin/webscr'.$querystring);
     exit();
  
 }else{
@@ -91,36 +94,25 @@ if (!isset($_POST["txn_id"]) && !isset($_POST["txn_type"])){
     // assign posted variables to local variables
     $data['txn_id']             = $_POST['txn_id'];
     $data['custom']             = $_POST['custom'];
-    $data['subject']             = "Payment received for email_id";
+    $data['subject']            = "Payment received for email_id";
  
     // post back to PayPal system to validate
     $header = "POST /cgi-bin/webscr HTTP/1.0\r\n";
     $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
     $header .= "Content-Length: " . strlen($req) . "\r\n\r\n";
  
-    $fp = fsockopen ('ssl://www.sandbox.paypal.com', 443, $errno, $errstr, 30);
+    $fp = fsockopen ('ssl://www.paypal.com', 443, $errno, $errstr, 30);
  
     if (!$fp) {
         header("Location: http://".$_SERVER["HTTP_HOST"]."/$cancel_url");
     } 
     else {
 	    fputs ($fp, $header . $req);
+		$verified = 0;
 	    while (!feof($fp)) {
 			$res = fgets ($fp, 1024);
 			if (strcmp ($res, "VERIFIED") == 0) {
-				//send the email using godaddysform			   
-			    $t = date("U");
-
-			    $file = $_SERVER['DOCUMENT_ROOT'] . "/../data/gdform_" . $t;
-			    $email_fp = fopen($file,"w");
-			    while (list ($key, $val) = each ($data)) {
-					fputs($email_fp,"<GDFORM_VARIABLE NAME=$key START>\n");
-				    fputs($email_fp,"$val\n");
-				    fputs($email_fp,"<GDFORM_VARIABLE NAME=$key END>\n");
-			    }
-			    fclose($email_fp);
-				
-			    header("Location: http://".$_SERVER["HTTP_HOST"]."/$return_url");
+				$verified = 1;
 			}
 			else if (strcmp ($res, "INVALID") == 0) {
 				// PAYMENT INVALID & INVESTIGATE MANUALY!
@@ -128,7 +120,22 @@ if (!isset($_POST["txn_id"]) && !isset($_POST["txn_type"])){
 				header("Location: http://".$_SERVER["HTTP_HOST"]."/$cancel_url");
 			}
         }	    
-	  fclose ($fp);
+	    fclose ($fp);
+	    if ($verified == 1){
+			//send the email using godaddysform			   
+		    $t = date("U");
+
+		    $file = $_SERVER['DOCUMENT_ROOT'] . "/../data/gdform_" . $t;
+		    $email_fp = fopen($file,"w");
+		    while (list ($key, $val) = each ($data)) {
+				fputs($email_fp,"<GDFORM_VARIABLE NAME=$key START>\n");
+			    fputs($email_fp,"$val\n");
+			    fputs($email_fp,"<GDFORM_VARIABLE NAME=$key END>\n");
+		    }
+		    fclose($email_fp);
+			
+		    header("Location: http://".$_SERVER["HTTP_HOST"]."/$return_url");
+	    }
 	}  
 }
 ?>
