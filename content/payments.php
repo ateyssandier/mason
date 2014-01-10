@@ -12,7 +12,7 @@ $cancel_url = 'http://cambridgebasketballacademy.com/registration_cancelled.html
 $notify_url = 'http://cambridgebasketballacademy.com/payments.php';
  
 $item_name = 'Cambridge Basketball Registration';
-$item_amount = 2550.00;
+$item_amount = 3450.00;
   
 // Check if paypal request or response
 if (!isset($_POST["txn_id"]) && !isset($_POST["txn_type"])){
