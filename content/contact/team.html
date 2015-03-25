@@ -1,0 +1,46 @@
+---
+extends: base.j2
+---
+{%  block maincontent %}
+<h1 class="title">Meet Our Team</h1>
+<ul id="members-list">
+    <li class="pictures">
+        <div><img src="{{ media_url('/images/neil-4382.jpg') }}" alt="mason" /></div>
+        <div><span class="name">Mason Craig</span></div>
+        <div class="position"><span class="position">Chief Operating Officer<br>&nbsp;</span></div>
+    </li>
+    <li class="pictures">
+        <div><img src="{{ media_url('/images/neil-4361.jpg') }}" alt="neil" /></div>
+        <div><span class="name">Neil Holloway</span></div>
+        <div class="position"><span class="position">Camp Director<br>&nbsp;</span></div>
+    </li>
+    <li class="pictures">
+        <div><img src="{{ media_url('/images/neil-4365.jpg') }}" alt="nancy" /></div>
+        <div><span class="name">Nancy Mader</span></div>
+        <div class="position"><span class="position">Mentorship/Residence Coordinator</span></div>
+    </li>
+    <li class="pictures">
+        <div><img src="{{ media_url('/images/chris_ott.jpg') }}" alt="chris" /></div>
+        <div><span class="name">Chris Ott</span></div>
+        <div class="position"><span class="position"> Assistant Coach</span></div>
+    </li>
+    <li class="pictures">
+    </li>
+    <li class="pictures">
+    </li>
+
+    <li class="pictures" style="width:50%">
+        <div style="height:30px;">
+
+        </div>
+        <div><span class="name">CBA Coaching Staff</span></div>
+        <ul>
+        <li>Tommy O'Connell</li>
+        <li>Luke Jasper</li>
+        <li>Brad Tang</li>
+        <li>Lorenzo Santana</li>
+        <li>James Jackson-Stephens</li>
+        </ul>
+    </li>
+</ul>
+{%  endblock maincontent %}

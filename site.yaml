@@ -24,8 +24,10 @@ context:
                 submenu:
                     - name: Elite Instruction
                       url: why/c_halloway.html
-                    - name: Mentor Program
+                    - name: ESL
                       url: why/evening.html
+                    - name: Sample Camp
+                      url: why/sample_camp.html
             -
                 name: Admissions
                 description: Admissions
@@ -42,12 +44,10 @@ context:
                 description: Sessions
                 css_class: sessions
                 type: page
-                url: sessions/winter_session.html
+                url: sessions/summer_session.html
                 submenu:
-                    - name: Summer Session
-                      url: sessions/summer_session.html
-                    - name:  School Break Camps
-                      url: sessions/winter_session.html
+                    - name: Customized Camps
+                      url: sessions/custom_camps.html
             -
                 name: Campus Life
                 description: Campus Life
@@ -69,8 +69,12 @@ context:
                 description: Contact
                 css_class: contact
                 type: page
-                url: contact.html
-
+                url: contact/index.html
+                submenu:
+                    - name: Meet Our Team
+                      url: contact/team.html
+                    - name: Work with CBA
+                      url: contact/work.html
             -
                 name: Application
                 description: Application
@@ -84,12 +88,13 @@ meta:
     author: Alex Teyssandier
     title: Cambridge Basketball Academy
     subtext: Crossover to Cambridge
-    address: Harvard Square
+    address: PO box 380381
     city: Cambridge
     state: MA
-    zip: 02139
+    zip: 02238
     phone: 781-436-0900
     email: info@CambridgeBasketballAcademy.com
+    compatibility: text/html; charset=UTF-8
 sorter:
     time:
         attr:

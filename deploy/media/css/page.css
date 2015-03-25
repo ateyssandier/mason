@@ -1,0 +1,84 @@
+#container #content {
+  display: block;
+  float: left;
+  width: 600px;
+  margin-left: 30px;
+}
+#container .holder {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#container #left_column {
+  display: block;
+  float: left;
+  width: 168px;
+  color: #666666;
+  background-color: #DEDACB;
+  border: solid white 1px;
+  padding: 20px;
+  font-size: 12px;
+}
+#container #right_column {
+  display: block;
+  float: right;
+  width: 250px;
+}
+#container .bold {
+  color: #000000;
+  font-size: 25px;
+}
+#container .errorMessage {
+  color: red;
+  fond-size: 20px;
+}
+.sample-schedule p {
+  margin-bottom: 0px;
+}
+.sample-schedule ul {
+  margin-top: 0px;
+}
+.fsSubmitButton {
+  padding: 7px 14px 6px !important;
+  font-size: 15px !important;
+  background-color: #730014;
+  font-weight: bold;
+  text-shadow: 1px 1px #730014;
+  color: #ffffff;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border: 1px solid #730014;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+ul#members-list {
+  width: 110%;
+}
+ul#members-list li.pictures {
+  display: inline-block;
+  width: 28%;
+  margin: 6px;
+}
+ul#members-list img {
+  width: 150px;
+}
+ul#members-list div.position {
+  height: 50px;
+}
+form#custom_camp_form .question {
+  font-size: 14pt;
+  line-height: 2;
+}
+form#custom_camp_form .row {
+  padding-bottom: 20px;
+}
+form#custom_camp_form p {
+  font-size: x-small;
+  margin-top: -5px;
+}
+form#custom_camp_form .textinput {
+  width: 150px;
+}

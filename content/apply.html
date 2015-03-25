@@ -20,13 +20,30 @@ extends: base.j2
         <div class="cell firstcell" style="width:100%">
             <div class="instruction">Select Session:</div>
             <input type="radio" id="session1" name="session" class="checkbox" value="1">
-            <label for="session1">Holiday Break Camp (December 29 - Jan. 3)</label><br>
+            <label for="session1">Session A:  June 29-July 10</label><br>
             <input type="radio" id="session2" name="session" class="checkbox" value="2">
-            <label for="session2">Winter Break Camp (February 16 - 21)</label><br>
-            <input type="radio" id="session3" name="session" class="checkbox" value="2">
-            <label for="session3">Spring Break Camp I(March 16 - 21)</label><br>
-            <input type="radio" id="session4" name="session" class="checkbox" value="2">
-            <label for="session4">Spring Break Camp II(April 20 - 25)</label><br>
+            <label for="session1">Session B: July 13-July 24</label><br>
+            <input type="radio" id="session3" name="session" class="checkbox" value="3">
+            <label for="session1">Session C: August 3 – August 14</label><br>
+        </div>
+        <div>
+            Custom Sessions are available upon request.
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell" style="clear:both">
+            <div class="instruction">Will you be travelling with family members? </div>
+            <input type="radio" id="family_travel_yes" name="family_travel_yes" class="checkbox" value="1"> <label for="family_travel_yes">yes</label><br>
+
+            <input type="radio" id="family_travel_no" name="family_travel_no" class="checkbox" value="0"><label for="family_travel_no">no</label><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell firstcell" style="clear:both">
+            <div class="instruction">Will they need travel / hotel assistance? </div>
+            <input type="radio" id="travel_assist_yes" name="travel_assist_yes" class="checkbox" value="1"> <label for="travel_assist_yes">yes</label><br>
+
+            <input type="radio" id="travel_assist_no" name="travel_assist_no" class="checkbox" value="0"><label for="travel_assist_no">no</label><br>
         </div>
     </div>
     <div class="row">
@@ -62,8 +79,22 @@ extends: base.j2
     <div class="row">
     </div>
     <div class="row">
+        <div class="cell firstcell">
+            <label for="years_studied" class="formlabel">Years Studied English</label>
+            <input type="text" maxlength="50" name="years_studied" id="years_studied" size="10" class="required">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell ">
+            <label for="englishExp" class="formlabel">English Level</label>
+            <input type="radio" id="beginner" name="englishExp" value="beginner"> <label for="beginner">Beginner</label>
+            <input type="radio" id="intermediate" name="englishExp" value="intermediate"> <label for="intermediate">Intermediate</label>
+            <input type="radio" id="upper_intermediate" name="englishExp" value="upper_intermediate"> <label for="upper_intermediate">Upper Intermediate</label>
+        </div>
+    </div>
+    <div class="row">
         <div class="cell">
-            <label for="tshirtSize" class="formlabel">T-Shirt Size</label>
+            <label for="tshirtSize" class="formlabel">Jersey Size</label>
             <input type="radio" id="adultsmall" name="tshirtSize" value="adultsmall"> <label for="adultsmall">Adult - Small</label>
             <input type="radio" id="adultmedium" name="tshirtSize" value="adultmedium"> <label for="adultmedium">Adult - Medium</label>
             <input type="radio" id="adultlarge" name="tshirtSize" value="adultlarge"> <label for="adultlarge">Adult - Large</label>
@@ -175,8 +206,14 @@ extends: base.j2
         <div class="cell firstcell">
             <div class="errorMessage">
             </div>
-            <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <br>
+            <br>
+            <button type="submit" class="fsSubmitButton" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Submit Application</button>
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            <br>
+            <br>
+            <img alt="" WIDTH="150px" border="0" src="{{ media_url('/images/PayPal-logo.gif') }}">
+
             <!--<a href="javascript:resetform();" id="resetLink">clear form</a>-->
         </div>
     </div>

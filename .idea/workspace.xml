@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d3b0f11-4947-407c-a263-0a405104ac48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/sessions/custom_camps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/picture.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/why/sample_camp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/team.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/thankyou.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/work.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/contact.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/apply.html" afterPath="$PROJECT_DIR$/content/apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/base.j2" afterPath="$PROJECT_DIR$/layout/base.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/blockbar.j2" afterPath="$PROJECT_DIR$/layout/blockbar.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/boston.html" afterPath="$PROJECT_DIR$/content/campus_life/boston.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/c_halloway.html" afterPath="$PROJECT_DIR$/content/why/c_halloway.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/centercolumn.j2" afterPath="$PROJECT_DIR$/layout/centercolumn.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/evening.html" afterPath="$PROJECT_DIR$/content/why/evening.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/homepage.less" afterPath="$PROJECT_DIR$/content/media/less/homepage.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/index.html" afterPath="$PROJECT_DIR$/content/admissions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/index.html" afterPath="$PROJECT_DIR$/content/campus_life/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/index.html" afterPath="$PROJECT_DIR$/content/why/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/layout.less" afterPath="$PROJECT_DIR$/content/media/less/layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/leftcolumn.j2" afterPath="$PROJECT_DIR$/layout/leftcolumn.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/meals.html" afterPath="$PROJECT_DIR$/content/campus_life/meals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/page.less" afterPath="$PROJECT_DIR$/content/media/less/page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/paperwork.html" afterPath="$PROJECT_DIR$/content/admissions/paperwork.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/rightcolumn.j2" afterPath="$PROJECT_DIR$/layout/rightcolumn.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/rules.html" afterPath="$PROJECT_DIR$/content/campus_life/rules.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/section-carousel.j2" afterPath="$PROJECT_DIR$/layout/section-carousel.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/section3.j2" afterPath="$PROJECT_DIR$/layout/section3.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.yaml" afterPath="$PROJECT_DIR$/site.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/sessions/summer_session.html" afterPath="$PROJECT_DIR$/content/sessions/summer_session.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/tuition.html" afterPath="$PROJECT_DIR$/content/admissions/tuition.html" />
+    </list>
+    <ignored path="mason.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1421459025184" ignored="false" />
+    <file path="/section3-page.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381711522223" ignored="false" />
+    <file path="/c_halloway.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382909117332" ignored="false" />
+    <file path="/base.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382909986112" ignored="false" />
+    <file path="/navigation.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383502339692" ignored="false" />
+    <file path="/dropdown.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381716374818" ignored="false" />
+    <file path="/apply.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418499031533" ignored="false" />
+    <file path="/typical_day.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381759130461" ignored="false" />
+    <file path="/a.dummy" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817620486" ignored="false" />
+    <file path="/layout.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396405966022" ignored="false" />
+    <file path="/homepage.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382961324235" ignored="false" />
+    <file path="/rightcolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727978452" ignored="false" />
+    <file path="/section-carousel.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727552235" ignored="false" />
+    <file path="/site.yaml" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418494070400" ignored="false" />
+    <file path="/evening.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491957726" ignored="false" />
+    <file path="/index.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491747253" ignored="false" />
+    <file path="/residence.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383700904590" ignored="false" />
+    <file path="/section3.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396405896793" ignored="false" />
+    <file path="/leftcolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418499141271" ignored="false" />
+    <file path="/tuition.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418493120495" ignored="false" />
+    <file path="/paperwork.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391086985178" ignored="false" />
+    <file path="/copyright.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382913514802" ignored="false" />
+    <file path="/footer-row4.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382914661590" ignored="false" />
+    <file path="/section1-header.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383500359674" ignored="false" />
+    <file path="/linklist.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396222451899" ignored="false" />
+    <file path="/centercolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491335532" ignored="false" />
+    <file path="/winter_session.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383701574202" ignored="false" />
+    <file path="/page.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418500187076" ignored="false" />
+    <file path="/rules.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418493815357" ignored="false" />
+    <file path="/contact.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383506692792" ignored="false" />
+    <file path="/summer_session.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727928550" ignored="false" />
+    <file path="/boston.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418494033977" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/ruelala/settings/defaults.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139075" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/content/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_rue1/users.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139076" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/models/members.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139076" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/storefront/views/registration.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/openid_provider/templates/login.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/content/views.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/core/management/commands/create_baseline_data.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/templates/returns/my_returns_step_1.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/storefront/views/returns.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/etc/nginx.conf" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390664723633" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/process_edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
+    <file path="/process_edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670922101" ignored="false" />
+    <file path="/process_aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670910920" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/process_aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390669730581" ignored="false" />
+    <file path="/edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390667407679" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
+    <file path="/aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670903501" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/registration/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_mock/invites.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_rue1/invites.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
+    <file path="/picture.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396406073815" ignored="false" />
+    <file path="/blockbar.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817703623" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/static/js/rll/pages/product_details_page.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
+    <file path="/product_details_page.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396323704494" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/etc/storefront_settings.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396324594431" ignored="false" />
+    <file path="/team.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418500565845" ignored="false" />
+    <file path="/custom_camps.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817348819" ignored="false" />
+    <file path="/thankyou.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396401979839" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/sitecontext/tests/test_models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561082" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/sitecontext/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
+    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/products/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
+    <file path="/sample_camp.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817080353" ignored="false" />
+    <file path="/work.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418498085392" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="work.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/contact/work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/contact/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="4" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_camp.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="21" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="94" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leftcolumn.j2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="97" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centercolumn.j2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="55" selection-start="1719" selection-end="1859" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockbar.j2" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="0" selection-end="220" vertical-scroll-proportion="0.06880734">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_camps.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="110" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/content/why/evening.html" />
+        <option value="$PROJECT_DIR$/content/admissions/index.html" />
+        <option value="$PROJECT_DIR$/content/admissions/tuition.html" />
+        <option value="$PROJECT_DIR$/content/campus_life/meals.html" />
+        <option value="$PROJECT_DIR$/content/campus_life/rules.html" />
+        <option value="$PROJECT_DIR$/content/campus_life/boston.html" />
+        <option value="$PROJECT_DIR$/site.yaml" />
+        <option value="$PROJECT_DIR$/content/sessions/summer_session.html" />
+        <option value="$PROJECT_DIR$/content/apply.html" />
+        <option value="$PROJECT_DIR$/layout/leftcolumn.j2" />
+        <option value="$PROJECT_DIR$/content/contact/work.html" />
+        <option value="$PROJECT_DIR$/content/media/less/page.less" />
+        <option value="$PROJECT_DIR$/content/contact/team.html" />
+        <option value="$PROJECT_DIR$/content/why/sample_camp.html" />
+        <option value="$PROJECT_DIR$/content/sessions/custom_camps.html" />
+        <option value="$PROJECT_DIR$/layout/blockbar.j2" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1420" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="why" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campus_life" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mason" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admissions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="135" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="134" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="934" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="932" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="136" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/contact" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d3b0f11-4947-407c-a263-0a405104ac48" name="Default" comment="" />
+      <created>1381707870489</created>
+      <updated>1381707870489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1420" height="860" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.671159" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3922853" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33406115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/content/campus_life/meals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/campus_life/rules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="111" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/campus_life/boston.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="8" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="39" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/summer_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="6" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="94" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/why/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="62" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4497751" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="97" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="4" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="55" selection-start="1719" selection-end="1859" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="110" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="0" selection-end="220" vertical-scroll-proportion="0.06880734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

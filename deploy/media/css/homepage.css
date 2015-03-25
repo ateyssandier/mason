@@ -1,0 +1,96 @@
+#homepage {
+  position: relative;
+  margin: 0 auto 30px;
+  display: block;
+  width: 100%;
+}
+#homepage #left_column {
+  display: block;
+  float: left;
+  width: 230px;
+}
+#homepage #left_column .imgholder {
+  margin-bottom: 20px;
+}
+#homepage #centercolumn {
+  display: block;
+  float: left;
+  width: 400px;
+  margin: 0 0 0 20px;
+}
+#homepage #centercolumn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#homepage #centercolumn li {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  list-style: none;
+  border-bottom: 1px solid #DEDACB;
+}
+#homepage #centercolumn .latestnews {
+  display: block;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+#homepage #centercolumn .latestnews p {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+#homepage #centercolumn .imgl {
+  margin: 0;
+}
+#homepage #centercolumn p.readmore {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+#homepage #right_column {
+  display: block;
+  float: left;
+  width: 230px;
+  margin: 0 0 0 20px;
+}
+#homepage #right_column .holder {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#homepage #right_column .apply a {
+  display: block;
+  width: 230px;
+  height: 100px;
+  margin-bottom: 20px;
+  color: #666666;
+  background-color: #DEDACB;
+  font-size: 14px;
+  text-transform: uppercase;
+  overflow: hidden;
+  border: solid white 1px;
+}
+#homepage #right_column .apply img {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#homepage #right_column .apply a strong {
+  display: block;
+  float: right;
+  width: 130px;
+  height: 72px;
+  padding-top: 28px;
+  text-align: center;
+  cursor: pointer;
+  /* IE7 Doesnt render the cursor properly so this is needed */
+
+}

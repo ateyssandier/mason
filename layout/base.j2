@@ -10,7 +10,7 @@
 
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
+  <meta http-equiv="Content-Type" content="{{ resource.meta.compatibility }}">
 
   <!-- encoding must be specified within the first 512 bytes
         www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset -->
@@ -63,6 +63,7 @@
       {% block container %}
 
           {% include "section1-header.j2" %}
+          {% include "blockbar.j2" %}
           {% include "navigation.j2" %}
           {%  if resource.url ==  '/index.html' %}
               {% include "section-carousel.j2" %}
