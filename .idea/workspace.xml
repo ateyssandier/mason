@@ -2,107 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3b0f11-4947-407c-a263-0a405104ac48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/sessions/custom_camps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/picture.j2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/why/sample_camp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/team.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/thankyou.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/contact/work.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/contact.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/apply.html" afterPath="$PROJECT_DIR$/content/apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/base.j2" afterPath="$PROJECT_DIR$/layout/base.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/blockbar.j2" afterPath="$PROJECT_DIR$/layout/blockbar.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/boston.html" afterPath="$PROJECT_DIR$/content/campus_life/boston.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/c_halloway.html" afterPath="$PROJECT_DIR$/content/why/c_halloway.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/media/images/logo_red.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/images/logo.png" afterPath="$PROJECT_DIR$/content/media/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/apply.html" afterPath="$PROJECT_DIR$/deploy/apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/campus_life/boston.html" afterPath="$PROJECT_DIR$/deploy/campus_life/boston.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/why/c_halloway.html" afterPath="$PROJECT_DIR$/deploy/why/c_halloway.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/cancellation.html" afterPath="$PROJECT_DIR$/deploy/cancellation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/centercolumn.j2" afterPath="$PROJECT_DIR$/layout/centercolumn.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/evening.html" afterPath="$PROJECT_DIR$/content/why/evening.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/homepage.less" afterPath="$PROJECT_DIR$/content/media/less/homepage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/index.html" afterPath="$PROJECT_DIR$/content/admissions/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/index.html" afterPath="$PROJECT_DIR$/content/campus_life/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/why/index.html" afterPath="$PROJECT_DIR$/content/why/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/layout.less" afterPath="$PROJECT_DIR$/content/media/less/layout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/leftcolumn.j2" afterPath="$PROJECT_DIR$/layout/leftcolumn.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/meals.html" afterPath="$PROJECT_DIR$/content/campus_life/meals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/media/less/page.less" afterPath="$PROJECT_DIR$/content/media/less/page.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/paperwork.html" afterPath="$PROJECT_DIR$/content/admissions/paperwork.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/rightcolumn.j2" afterPath="$PROJECT_DIR$/layout/rightcolumn.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/campus_life/rules.html" afterPath="$PROJECT_DIR$/content/campus_life/rules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/section-carousel.j2" afterPath="$PROJECT_DIR$/layout/section-carousel.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/section3.j2" afterPath="$PROJECT_DIR$/layout/section3.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/sessions/custom_camps.html" afterPath="$PROJECT_DIR$/content/sessions/custom_camps.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/sessions/custom_camps.html" afterPath="$PROJECT_DIR$/deploy/sessions/custom_camps.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/why/evening.html" afterPath="$PROJECT_DIR$/deploy/why/evening.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/why/faq.html" afterPath="$PROJECT_DIR$/deploy/why/faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/index.html" afterPath="$PROJECT_DIR$/deploy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/admissions/index.html" afterPath="$PROJECT_DIR$/deploy/admissions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/campus_life/index.html" afterPath="$PROJECT_DIR$/deploy/campus_life/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/contact/index.html" afterPath="$PROJECT_DIR$/deploy/contact/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/sessions/index.html" afterPath="$PROJECT_DIR$/deploy/sessions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/why/index.html" afterPath="$PROJECT_DIR$/deploy/why/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/campus_life/meals.html" afterPath="$PROJECT_DIR$/deploy/campus_life/meals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/admissions/paperwork.html" afterPath="$PROJECT_DIR$/deploy/admissions/paperwork.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/payments.php" afterPath="$PROJECT_DIR$/content/payments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/payments.php" afterPath="$PROJECT_DIR$/deploy/payments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/paypal_redirect.html" afterPath="$PROJECT_DIR$/deploy/paypal_redirect.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/registration_cancelled.html" afterPath="$PROJECT_DIR$/deploy/registration_cancelled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/registration_success.html" afterPath="$PROJECT_DIR$/deploy/registration_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/campus_life/residence.html" afterPath="$PROJECT_DIR$/deploy/campus_life/residence.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/campus_life/rules.html" afterPath="$PROJECT_DIR$/deploy/campus_life/rules.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/why/sample_camp.html" afterPath="$PROJECT_DIR$/deploy/why/sample_camp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.yaml" afterPath="$PROJECT_DIR$/site.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/sessions/summer_session.html" afterPath="$PROJECT_DIR$/content/sessions/summer_session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/admissions/tuition.html" afterPath="$PROJECT_DIR$/content/admissions/tuition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/sessions/summer_session.html" afterPath="$PROJECT_DIR$/deploy/sessions/summer_session.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/contact/team.html" afterPath="$PROJECT_DIR$/content/contact/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/contact/team.html" afterPath="$PROJECT_DIR$/deploy/contact/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/thankyou.html" afterPath="$PROJECT_DIR$/deploy/thankyou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/admissions/tuition.html" afterPath="$PROJECT_DIR$/deploy/admissions/tuition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/sessions/winter_session.html" afterPath="$PROJECT_DIR$/deploy/sessions/winter_session.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/contact/work.html" afterPath="$PROJECT_DIR$/deploy/contact/work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mason.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1421459025184" ignored="false" />
-    <file path="/section3-page.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381711522223" ignored="false" />
-    <file path="/c_halloway.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382909117332" ignored="false" />
-    <file path="/base.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382909986112" ignored="false" />
-    <file path="/navigation.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383502339692" ignored="false" />
-    <file path="/dropdown.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381716374818" ignored="false" />
-    <file path="/apply.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418499031533" ignored="false" />
-    <file path="/typical_day.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1381759130461" ignored="false" />
-    <file path="/a.dummy" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817620486" ignored="false" />
-    <file path="/layout.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396405966022" ignored="false" />
-    <file path="/homepage.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382961324235" ignored="false" />
-    <file path="/rightcolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727978452" ignored="false" />
-    <file path="/section-carousel.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727552235" ignored="false" />
-    <file path="/site.yaml" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418494070400" ignored="false" />
-    <file path="/evening.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491957726" ignored="false" />
-    <file path="/index.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491747253" ignored="false" />
-    <file path="/residence.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383700904590" ignored="false" />
-    <file path="/section3.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396405896793" ignored="false" />
-    <file path="/leftcolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418499141271" ignored="false" />
-    <file path="/tuition.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418493120495" ignored="false" />
-    <file path="/paperwork.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391086985178" ignored="false" />
-    <file path="/copyright.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382913514802" ignored="false" />
-    <file path="/footer-row4.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1382914661590" ignored="false" />
-    <file path="/section1-header.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383500359674" ignored="false" />
-    <file path="/linklist.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396222451899" ignored="false" />
-    <file path="/centercolumn.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418491335532" ignored="false" />
-    <file path="/winter_session.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383701574202" ignored="false" />
-    <file path="/page.less" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418500187076" ignored="false" />
-    <file path="/rules.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418493815357" ignored="false" />
-    <file path="/contact.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1383506692792" ignored="false" />
-    <file path="/summer_session.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1398727928550" ignored="false" />
-    <file path="/boston.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418494033977" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/ruelala/settings/defaults.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139075" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/content/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_rue1/users.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139076" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/models/members.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1388676139076" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/storefront/views/registration.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/openid_provider/templates/login.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/content/views.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714480" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/core/management/commands/create_baseline_data.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/templates/returns/my_returns_step_1.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/storefront/views/returns.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390662714481" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/etc/nginx.conf" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390664723633" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/process_edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
-    <file path="/process_edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670922101" ignored="false" />
-    <file path="/process_aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670910920" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/process_aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390669730581" ignored="false" />
-    <file path="/edr.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390667407679" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/nginx/lua/aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1391173647540" ignored="false" />
-    <file path="/aid.lua" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1390670903501" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/registration/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_mock/invites.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-omsbroker/rue/omsbroker/broker_rue1/invites.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
-    <file path="/picture.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396406073815" ignored="false" />
-    <file path="/blockbar.j2" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817703623" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-storefront/rue/static/js/rll/pages/product_details_page.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
-    <file path="/product_details_page.js" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396323704494" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/etc/storefront_settings.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396324594431" ignored="false" />
-    <file path="/team.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418500565845" ignored="false" />
-    <file path="/custom_camps.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817348819" ignored="false" />
-    <file path="/thankyou.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1396401979839" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/sitecontext/tests/test_models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561082" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/sitecontext/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561083" ignored="false" />
-    <file path="$PROJECT_DIR$/../rue_buildout/src/rue-core/rue/products/models.py" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1403236561084" ignored="false" />
-    <file path="/sample_camp.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1420817080353" ignored="false" />
-    <file path="/work.html" changelist="6d3b0f11-4947-407c-a263-0a405104ac48" time="1418498085392" ignored="false" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,93 +63,106 @@
     <sortChildren value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mason" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="work.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/contact/work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/contact/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-3.9166667" vertical-offset="41" max-vertical-offset="780">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
+      <file leaf-file-name="info.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="4" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_camp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apply.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/apply.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="94" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leftcolumn.j2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="97" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="centercolumn.j2" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="centercolumn.j2" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="55" selection-start="1719" selection-end="1859" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
+              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blockbar.j2" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3505" max-vertical-offset="6000">
+              <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="1650">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5107296" vertical-offset="4532" max-vertical-offset="7590">
+              <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/payments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2190">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockbar.j2" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="0" selection-end="220" vertical-scroll-proportion="0.06880734">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_camps.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_camps.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="110" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -230,26 +184,19 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/content/why/evening.html" />
-        <option value="$PROJECT_DIR$/content/admissions/index.html" />
-        <option value="$PROJECT_DIR$/content/admissions/tuition.html" />
-        <option value="$PROJECT_DIR$/content/campus_life/meals.html" />
-        <option value="$PROJECT_DIR$/content/campus_life/rules.html" />
-        <option value="$PROJECT_DIR$/content/campus_life/boston.html" />
-        <option value="$PROJECT_DIR$/site.yaml" />
-        <option value="$PROJECT_DIR$/content/sessions/summer_session.html" />
-        <option value="$PROJECT_DIR$/content/apply.html" />
-        <option value="$PROJECT_DIR$/layout/leftcolumn.j2" />
-        <option value="$PROJECT_DIR$/content/contact/work.html" />
-        <option value="$PROJECT_DIR$/content/media/less/page.less" />
-        <option value="$PROJECT_DIR$/content/contact/team.html" />
-        <option value="$PROJECT_DIR$/content/why/sample_camp.html" />
+        <option value="$PROJECT_DIR$/layout/centercolumn.j2" />
+        <option value="$PROJECT_DIR$/content/payments.php" />
         <option value="$PROJECT_DIR$/content/sessions/custom_camps.html" />
-        <option value="$PROJECT_DIR$/layout/blockbar.j2" />
+        <option value="$PROJECT_DIR$/content/contact/team.html" />
+        <option value="$PROJECT_DIR$/site.yaml" />
+        <option value="$PROJECT_DIR$/deploy/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
@@ -271,7 +218,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -283,7 +230,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,130 +262,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="why" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campus_life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admissions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,6 +302,131 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,6 +434,8 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mason" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
@@ -495,221 +447,425 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mason" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6d3b0f11-4947-407c-a263-0a405104ac48" name="Default" comment="" />
       <created>1381707870489</created>
+      <option name="number" value="Default" />
       <updated>1381707870489</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="860" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32869786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.671159" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3922853" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39225352" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33406115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/campus_life/meals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/campus_life/rules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="111" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/campus_life/boston.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="39" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/sessions/summer_session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="94" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/why/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="62" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4497751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="97" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/contact/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="4" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/contact/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1560">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="1719" selection-end="1859" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+    <entry file="file://$PROJECT_DIR$/deploy/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="110" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3505" max-vertical-offset="6000">
+          <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="1650">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2190">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="0" selection-end="220" vertical-scroll-proportion="0.06880734">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="390">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="780">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1650">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1560">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="3480">
+          <caret line="83" column="94" selection-start-line="83" selection-start-column="94" selection-end-line="83" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+          <caret line="3" column="97" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="750">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
+          <caret line="6" column="110" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/campus_life/meals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="9" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/campus_life/rules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="46" column="111" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/campus_life/boston.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="32" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/summer_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="107" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="3480">
+          <caret line="83" column="94" selection-start-line="83" selection-start-column="94" selection-end-line="83" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/why/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4497751" vertical-offset="0" max-vertical-offset="0">
+          <caret line="20" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/leftcolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+          <caret line="3" column="97" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="390">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/media/less/page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1650">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/why/sample_camp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1560">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/admissions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/blockbar.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/centercolumn.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3505" max-vertical-offset="6000">
+          <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2190">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sessions/custom_camps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9166667" vertical-offset="41" max-vertical-offset="780">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="1650">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5107296" vertical-offset="4532" max-vertical-offset="7590">
+          <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

@@ -6,7 +6,7 @@ $pass = ""; //database password
 $db_name = ""; //database name
  
 // PayPal settings
-$paypal_email = 'info@cambridgebasketballacademy.com ';
+$paypal_email = 'mason@cbacamps.com';
 $return_url = 'http://cambridgebasketballacademy.com/registration_success.html';
 $cancel_url = 'http://cambridgebasketballacademy.com/registration_cancelled.html';
 $notify_url = 'http://cambridgebasketballacademy.com/payments.php';
